@@ -1,0 +1,21 @@
+Historical facts and crowdsourced coefficients; no certification of full content. No wiki text/artwork bundled.
+https://oldschool.runescape.wiki/w/Tree?oldid=14348916
+https://oldschool.runescape.wiki/w/Oak?oldid=14355754
+https://oldschool.runescape.wiki/w/Willow?oldid=14355750
+https://oldschool.runescape.wiki/w/Teak?oldid=14355749
+https://oldschool.runescape.wiki/w/Maple_tree?oldid=14357038
+https://oldschool.runescape.wiki/w/Arctic_pine?oldid=14355744
+https://oldschool.runescape.wiki/w/Mahogany?oldid=14357007
+https://oldschool.runescape.wiki/w/Yew?oldid=14357002
+https://oldschool.runescape.wiki/w/Magic_tree?oldid=14355748
+https://oldschool.runescape.wiki/w/Redwood_tree?oldid=14356122
+https://oldschool.runescape.wiki/w/Hollow_tree?oldid=14355756
+https://oldschool.runescape.wiki/w/Achey_tree?oldid=14355742
+https://oldschool.runescape.wiki/w/Infernal_axe?oldid=14307391
+https://oldschool.runescape.wiki/w/Crystal_axe?oldid=14340723
+https://oldschool.runescape.wiki/w/Strung_rabbit_foot?oldid=14356079
+https://oldschool.runescape.wiki/w/Clue_nest?oldid=14356085
+OpenRune ISC native tree/stump associations and supplementary Crystal coefficients:
+https://github.com/OpenRune/OpenRune-Server/commit/c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+See OpenRune-LICENSE.txt. Current Forestry timers were not imported.
+Historical RuneLite respawn values: https://github.com/runelite/runelite/blob/03f0df17b6e27a8a91f9f158f986db8d095f3259/runelite-client/src/main/java/net/runelite/client/plugins/woodcutting/Tree.java

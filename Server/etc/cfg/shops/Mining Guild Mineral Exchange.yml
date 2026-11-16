@@ -1,0 +1,16 @@
+---
+id: 220
+name: "Mining Guild Mineral Exchange"
+items:
+- id: 21343
+  amount: 100
+  price: 60
+- id: 21345
+  amount: 100
+  price: 120
+- id: 24851
+  amount: 1000
+  price: 10
+- id: 24853
+  amount: 100
+  price: 20

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 9134,
+    "position": {
+      "x": 3295,
+      "y": 6043,
+      "height": 0
+    },
+    "walkingType": "STAND"
+  },
+  {
+    "id": 9136,
+    "position": {
+      "x": 3238,
+      "y": 6066,
+      "height": 0
+    },
+    "walkingType": "STAND"
+  }
+]

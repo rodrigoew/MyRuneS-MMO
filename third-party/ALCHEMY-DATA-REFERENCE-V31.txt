@@ -1,0 +1,21 @@
+Historical item facts derived from osrsreboxed-db (GPL-3.0):
+https://github.com/0xNeffarion/osrsreboxed-db/tree/2803670ab140f850ac8813e606dc1237d7893ea2
+Commit date2022-12-31T19:47:06Z; original docs/items-complete.json SHA256:
+004081b2ded50bc7cca7229cfddee18426a445984a3966db3e844e986be043f1
+Only factual item ID, game value, alchemy amounts, base ID and tradeability
+are distributed. The upstream community dataset is not proof of alchability:
+explicit No flags from archived OSRS Wiki item infoboxes override its payouts.
+Notes inherit their original item's prohibition, including the inactive Bowfa.
+ALCHEMY-FACTS-AUDIT-V31.json records the applied facts with revision links.
+No icons, article prose or market prices copied into this data file.
+Native cache27,359records were independently decoded without custom client
+overrides and each record end was validated.25,921records overlap the historical
+data. Notes use base-item payouts; bank placeholders and bought templates
+are rejected. Nine beta IDs25484..25492use their native value1000instead of
+stale inherited data. Separate from this game's custom shop prices.
+Current category names were used only to discover candidate pages. Every
+applied Wiki flag comes from a revision before2023; no current gameplay flag
+is imported. Historical removed hist-prefixed IDs are deliberately excluded.
+This cross-check does not certify every item, quest or utility spell as complete.
+No live Grand Exchange feed is used by this offline world. Warning controls
+explicitly display local valuations; payouts never use those shop prices.

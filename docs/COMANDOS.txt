@@ -1,0 +1,1836 @@
+MYRUNES MMO — CATÁLOGO DE COMANDOS V72
+
+367 nomes diferentes; 253 implementações registradas; 25 ações detalhadas de solo/casa/lista.
+Inventário da versão instalada. Nem todas as funções foram executadas ou validadas em jogo.
+Página pesquisável: COMANDOS.html. Itens: ITENS.html.
+Skills: addxp usa 1–23; setlevel usa 0–22.
+God mode: ::godmode alterna a cada uso; não aceita on/off.
+O solo atual promove todos os personagens a OWNER no login.
+
+::317
+Cliente local | Tela e cliente | Cliente
+Alterna o visual clássico da moldura do jogo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::addresswhitelist
+Dono | Administração | Disponível
+Consulta ou ajusta controles de conexão do servidor.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::addrights-NOME-CARGO
+Dono | Administração | Disponível
+Adiciona um cargo a um personagem conectado; não remove cargos anteriores.
+Exemplo: ::addrights-rodri-1
+Exemplo: ::addrights-rodri-2
+Exemplo: ::addrights-rodri-3
+Personagem conectado. 1: moderador; 2: administrador; 3: dono; 11: ajudante. No solo atual, todo personagem recebe OWNER no login.
+
+::addxp NUMERO XP
+Dono | Habilidades e XP | Disponível
+Adiciona uma quantidade exata de XP. Skills numeradas de 1 a 23.
+Exemplo: ::addxp 1 50000
+Exemplo: ::addxp list
+Quantidade exata; não recebe o multiplicador do iniciador. Bloqueios de XP e limite de 200 milhões continuam valendo.
+::addxp list — Lista as 23 habilidades com números de 1 a 23.
+
+::afk
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::allnpcs
+Dono | Administração | Disponível
+Cria ou testa NPCs. Não garante iniciar uma instância funcional de boss.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::anim ID
+Dono | Administração | Disponível
+Executa ou testa animações pelo ID.
+
+::announce
+Jogador | Utilidades | Disponível
+Alterna anúncios de drops.
+
+::answer
+Conforme a ação | Ferramentas antigas | Herdado
+Envia uma resposta ao evento de perguntas.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::as
+Dono | Administração | Disponível
+Registra uma posição de surgimento de NPC da base.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::attackstats
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::ban
+Moderador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::banip
+Moderador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::bank
+Administrador | Itens e banco | Disponível
+Abre o banco.
+Exemplo: ::bank
+
+::barrows
+Jogador | Atividades e viagens | Disponível
+Teletransporta para Barrows.
+
+::benefits
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::bonus xp|vote|pc|pkp|drops
+Administrador | Administração | Disponível
+Alterna bônus de XP, votos, Pest Control, PK ou drops.
+Alterna o estado da opção informada.
+
+::bots
+Testes desativados | Testes desativados | Desativado
+Gerencia jogadores artificiais de teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::broadcast
+Administrador | Administração | Disponível
+Envia uma mensagem no próprio jogo, conforme o alcance do comando.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::bug
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::cal
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::caladdwinner
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::calblacklist
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::calprogress
+Administrador | Administração | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Rotina herdada de calendário; pode depender de banco de dados não configurado no solo.
+
+::calreset
+Administrador | Administração | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Rotina herdada de calendário; pode depender de banco de dados não configurado no solo.
+
+::calstart
+Administrador | Administração | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Rotina herdada de calendário; pode depender de banco de dados não configurado no solo.
+
+::caltest
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::caltestall
+Administrador | Administração | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Rotina herdada de calendário; pode depender de banco de dados não configurado no solo.
+
+::caltick
+Administrador | Administração | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Rotina herdada de calendário; pode depender de banco de dados não configurado no solo.
+
+::calunblacklist
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::camera
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::cameront
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::cash
+Dono | Itens e banco | Disponível
+Adiciona uma pilha máxima de Coins à mochila, se houver espaço.
+
+::ccmute
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::changepass password
+Jogador | Utilidades | Disponível
+Altera a senha do personagem.
+
+::changepassword password
+Jogador | Utilidades | Disponível
+Altera a senha do personagem.
+
+::charge shadow|scythe|bowfa|ID [POSICAO]
+Jogador | Itens e banco | Disponível
+Carrega uma arma compatível consumindo os materiais necessários.
+Exemplo: ::charge shadow
+Exemplo: ::charge scythe
+Exemplo: ::charge 27275 1
+Consome materiais. Posição opcional da mochila: 1–28.
+
+::charges
+Jogador | Itens e banco | Disponível
+Consulta as cargas das armas da mochila e da arma equipada.
+Exemplo: ::charges
+
+::checkbank
+Administrador | Administração | Disponível
+Inspeciona o banco ou a mochila de um jogador conectado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::checkinventory
+Moderador | Administração | Disponível
+Inspeciona o banco ou a mochila de um jogador conectado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::chestrewards
+Jogador | Utilidades | Disponível
+Consulta tabelas de recompensas.
+
+::claim
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::claimdonation
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::clearloginattempts
+Dono | Administração | Disponível
+Consulta ou ajusta controles de conexão do servidor.
+
+::cleartb
+Conforme a ação | Ferramentas antigas | Herdado
+Remove o bloqueio de teletransporte.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::clipping
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::cliptile
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::close
+Jogador | Utilidades | Disponível
+Fecha a interface aberta.
+
+::collect
+Jogador | Itens e banco | Disponível
+Recolhe itens da caixa de coleção.
+
+::combatrunes
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::combofood
+Dono | Administração | Disponível
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+
+::commands
+Jogador | Utilidades | Disponível
+Lista comandos gerais no jogo; a lista padrão omite as categorias administrativas.
+
+::completeachievement
+Testes desativados | Testes desativados | Desativado
+Conclui conquistas pelo grupo de testes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::config
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de configuração ou instância.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::connections
+Dono | Administração | Disponível
+Consulta ou ajusta controles de conexão do servidor.
+
+::coolgfx
+Administrador | Administração | Disponível
+Testa efeitos gráficos.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::coords
+Administrador | Atividades e viagens | Disponível
+Mostra as coordenadas atuais.
+Exemplo: ::coords
+
+::copy
+Conforme a ação | Ferramentas antigas | Herdado
+Copia dados de equipamento de outro jogador conforme a variante da base.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::copyplayer
+Dono | Administração | Disponível
+Copia dados de equipamento de outro jogador conforme a variante da base.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::createequipmentsetup
+Testes desativados | Testes desativados | Desativado
+Gerencia conjuntos de equipamento de teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::credit
+Conforme a ação | Ferramentas antigas | Herdado
+Abre informações ou perfil do personagem.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::crystal
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::cyber
+Dono | Administração | Disponível
+Ferramenta administrativa de serviços herdados da base pública.
+
+::daily
+Jogador | Utilidades | Disponível
+Consulta a tarefa diária ou abre recompensas diárias.
+
+::dailyreward
+Jogador | Utilidades | Disponível
+Consulta a tarefa diária ou abre recompensas diárias.
+
+::data
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::debug
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::debugm
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::defencestats
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::dialogstate
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::dice
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::disable
+Moderador | Administração | Disponível
+Desativa recursos do servidor; use sem parâmetros para consultar as opções.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::discord
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::displayfps
+Cliente local | Tela e cliente | Cliente
+Alterna a exibição dos quadros por segundo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::donate
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::donatortitle title
+Doador | Utilidades | Disponível
+Altera um título do personagem.
+
+::donatorzone
+Doador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::doubledrops MINUTOS
+Dono | Administração | Disponível
+Ativa o evento de drops dobrados pelo número informado de minutos; zero encerra.
+Exemplo: ::doubledrops 60
+Exemplo: ::doubledrops 0
+Zero encerra o evento; nem toda recompensa passa pelo evento de drops.
+
+::drag NUMERO
+Cliente local | Tela e cliente | Cliente
+Ajusta o tempo de arrasto dos itens, de 1 a 100.
+Exemplo: ::drag 5
+Intervalo 1–100.
+
+::drawdistance NUMERO
+Cliente local | Tela e cliente | Cliente
+Ajusta a distância de desenho do cenário.
+Exemplo: ::drawdistance 3500
+O cliente aplica um limite mínimo.
+
+::drawgrid
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::dropclient
+Cliente local | Tela e cliente | Cliente
+Força a desconexão do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::droprate
+Jogador | Utilidades | Disponível
+Consulta drops ou o bônus de chance de drops.
+
+::droptable
+Jogador | Utilidades | Disponível
+Consulta drops ou o bônus de chance de drops.
+
+::droptest
+Conforme a ação | Ferramentas antigas | Herdado
+Simula drops; algumas variantes podem limpar o banco.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::duel
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::duelarena
+Administrador | Administração | Disponível
+Alterna a ativação da Duel Arena.
+
+::dump
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::dz
+Doador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::e
+Administrador | Administração | Disponível
+Executa ou testa animações pelo ID.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::easts
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::emote
+Administrador | Administração | Disponível
+Executa ou testa animações pelo ID.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::empty
+Administrador | Itens e banco | Disponível
+Esvazia a mochila e remove seus itens.
+
+::emptybank
+Conforme a ação | Itens e banco | Herdado
+Esvazia o banco e remove seus itens.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::endpoll
+Administrador | Administração | Disponível
+Encerra a enquete da base.
+
+::equipmentsetup
+Testes desativados | Testes desativados | Desativado
+Gerencia conjuntos de equipamento de teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::equipmentsetups
+Testes desativados | Testes desativados | Desativado
+Gerencia conjuntos de equipamento de teste.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::eventlog
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::explock
+Jogador | Habilidades e XP | Disponível
+Abre os bloqueios de XP; um bloqueio pode impedir addxp.
+
+::farmingtest
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::filter
+Conforme a ação | Ferramentas antigas | Herdado
+Abre uma sobreposição de interface da base.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::find
+Moderador | Administração | Disponível
+Consulta informações de personagens ou conexões.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Também possui tratamento antigo antes do comando registrado; variantes não são contadas como comandos diferentes.
+
+::finditem NOME
+Administrador | Itens e banco | Disponível
+Pesquisa IDs de itens pelo nome em inglês.
+Exemplo: ::finditem torva
+Pesquisa nomes em inglês.
+
+::foe
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta do sistema de recompensas FOE herdado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::foepets
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::food
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::forum
+Conforme a ação | Serviços externos | Herdado
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::forums
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::fpsoff
+Cliente local | Tela e cliente | Cliente
+Esconde os quadros por segundo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::fpson
+Cliente local | Tela e cliente | Cliente
+Mostra os quadros por segundo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::freezeme
+Conforme a ação | Ferramentas antigas | Herdado
+Aplica um estado negativo ao próprio personagem para teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::galvek
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta herdada relacionada a um boss; não equivale à entrada solo validada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::gambleban
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::genpass
+Dono | Administração | Disponível
+Gera um hash de senha para desenvolvimento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::getclip
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::getid NOME
+Dono | Itens e banco | Disponível
+Pesquisa IDs de itens pelo nome em inglês.
+Exemplo: ::getid torva
+Exemplo: ::getid whip
+Pelo menos três letras em inglês; até 100 resultados.
+
+::getloginlimit
+Dono | Administração | Disponível
+Consulta ou ajusta controles de conexão do servidor.
+
+::getloginname
+Ajudante | Administração | Disponível
+Consulta informações de personagens ou conexões.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::getnpcid NOME
+Dono | Administração | Disponível
+Pesquisa IDs de NPCs pelo nome em inglês.
+Exemplo: ::getnpcid nex
+Pelo menos três letras.
+
+::gfx
+Dono | Administração | Disponível
+Testa efeitos gráficos.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::gfxid
+Cliente local | Tela e cliente | Cliente
+Consulta dados de animações, efeitos ou interfaces do cache.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::gfxloop
+Dono | Administração | Disponível
+Testa efeitos gráficos.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::gim
+Moderador | Administração | Disponível
+Consulta ou gerencia dados de grupo Ironman.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::gimallowjoin
+Moderador | Administração | Disponível
+Consulta ou gerencia dados de grupo Ironman.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::gimkick
+Moderador | Administração | Disponível
+Consulta ou gerencia dados de grupo Ironman.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::ginfo
+Jogador | Utilidades | Disponível
+Consulta ou gerencia dados de grupo Ironman.
+
+::givecalender
+Dono | Administração | Disponível
+Ferramenta do calendário herdado. Pode depender de serviços não configurados no solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::givecollection-NOME-NPCID-ITEMID-QUANTIDADE
+Administrador | Itens e banco | Disponível
+Registra um item de coleção para um jogador.
+
+::giveitem NOME ID QUANTIDADE
+Dono | Itens e banco | Disponível
+Entrega itens a outro jogador.
+O nome ocupa um argumento separado por espaço.
+
+::giverights
+Conforme a ação | Administração | Herdado
+Tratamento antigo de cargos; prefira addrights e removerights.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::glod
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta herdada relacionada a um boss; não equivale à entrada solo validada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::godmode
+Conforme a ação | Combate e proteção | Herdado
+Alterna a proteção que zera o dano recebido pelo sistema de combate. Repetir desliga.
+Exemplo: ::godmode
+Alterna a cada uso. Não há parâmetros on/off: godmode off também alterna o estado.
+
+::godspells
+Conforme a ação | Combate e proteção | Herdado
+Adiciona contadores de uso das três magias divinas.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::graphics on|off
+Cliente local | Tela e cliente | Cliente
+Ativa ou desativa suavização, mistura de terrenos e antisserrilhado.
+Exemplo: ::graphics on
+Exemplo: ::graphics off
+
+::grounditems
+Testes desativados | Testes desativados | Desativado
+Fornece itens ou pontos pelo grupo de testes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::gstats
+Conforme a ação | Ferramentas antigas | Herdado
+Consulta ou gerencia dados de grupo Ironman.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::guide
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::hd
+Cliente local | Tela e cliente | Cliente
+Ativa o modo de memória alta e redesenha o cenário.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::help
+Jogador | Utilidades | Disponível
+Abre ajuda ou ferramentas de atendimento da base.
+
+::helpdb
+Ajudante | Administração | Disponível
+Abre ajuda ou ferramentas de atendimento da base.
+
+::herbs
+Testes desativados | Testes desativados | Desativado
+Fornece itens ou pontos pelo grupo de testes.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::highrisk
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::highscores
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::hit
+Testes desativados | Testes desativados | Desativado
+Aplica dano ao próprio personagem para teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::home
+Jogador | Atividades e viagens | Disponível
+Retorna à área inicial; stuck é a rotina para personagem preso.
+
+::hosts
+Jogador | Utilidades | Disponível
+Lista jogadores ou funções conectadas.
+
+::hotkeys
+Cliente local | Tela e cliente | Cliente
+Ativa ou desativa atalhos de teclado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::house [ACAO]
+Jogador | Atividades e viagens | Disponível
+Abre o menu da casa e aceita ações de entrada, construção e organização de cômodos.
+Exemplo: ::house
+Exemplo: ::house build
+Exemplo: ::house enter
+Exemplo: ::house exit
+Exemplo: ::house list
+A construção mantém os requisitos e materiais do jogo.
+::house build — Entra no modo de construção.
+::house enter — Entra na casa em modo normal.
+::house exit — Sai da casa.
+::house list — Lista cômodos e posições.
+::house room TIPO X Y ROTACAO — Adiciona um cômodo, respeitando materiais, nível e limites.
+::house rotate X Y ROTACAO — Gira um cômodo nas coordenadas informadas.
+::house remove X Y — Remove um cômodo conforme as regras da casa.
+
+::hpray
+Dono | Combate e proteção | Disponível
+Alterna vida e Oração extremamente altas e especial aumentado; repetir restaura os valores normais.
+Exemplo: ::hpray
+Proteção independente de godmode e invincible.
+
+::hunllef
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta herdada relacionada a um boss; não equivale à entrada solo validada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::inferno
+Jogador | Atividades e viagens | Disponível
+Leva à entrada do Inferno. Para iniciar a adaptação solo, use solo inferno.
+
+::infernorock
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta de desenvolvimento para encontros ou instâncias.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::info
+Moderador | Administração | Disponível
+Consulta informações de personagens ou conexões.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::initgg
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta de desenvolvimento para encontros ou instâncias.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::initmm
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta de desenvolvimento para encontros ou instâncias.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::instance
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de configuração ou instância.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::inter
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::interface ID
+Dono | Administração | Disponível
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+Também possui tratamento local no cliente.
+
+::interfacestrings
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::interfacetext
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::invincible
+Dono | Combate e proteção | Disponível
+Alterna uma proteção de invencibilidade independente de godmode.
+Exemplo: ::invincible
+Proteção independente de godmode.
+
+::isnull
+Moderador | Administração | Disponível
+Consulta informações de personagens ou conexões.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::item ID [QUANTIDADE]
+Jogador | Itens e banco | Disponível
+Cria itens na mochila. Para o uso comum, prefira item.
+Exemplo: ::item 995 1000000
+Exemplo: ::item 4151 1
+Exemplo: ::item 26382 1
+A variante antiga de item é ignorada no solo; a implementação solo continua disponível.
+Quantidade padrão: 1. Armas criadas não recebem cargas automaticamente. Exemplos de IDs: 4151 = Abyssal whip; 26382 = Torva full helm; 26384 = Torva platebody; 26386 = Torva platelegs; 27275 = Tumeken's shadow.
+
+::itemoninterface
+Dono | Administração | Disponível
+Exibe um item em uma interface de teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::jad
+Jogador | Atividades e viagens | Disponível
+Leva à entrada de Fight Caves.
+
+::jail
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::kdr
+Jogador | Utilidades | Disponível
+Consulta ou redefine a proporção de abates e mortes.
+
+::kick
+Ajudante | Administração | Disponível
+Desconecta um jogador.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::kill
+Dono | Administração | Disponível
+Força a morte de outro personagem conectado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::killlog
+Jogador | Utilidades | Disponível
+Abre o registro de mortes de NPCs.
+
+::killme
+Conforme a ação | Ferramentas antigas | Herdado
+Força a morte do próprio personagem.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::killnightmare
+Conforme a ação | Ferramentas antigas | Herdado
+Força uma ação de encerramento no encontro com Nightmare.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::killtitle title
+Doador | Utilidades | Disponível
+Altera um título do personagem.
+
+::konar
+Jogador | Atividades e viagens | Disponível
+Teletransporta à área ou ao mestre de Extermínio correspondente.
+
+::ks
+Moderador | Administração | Disponível
+Consulta a sequência de abates.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::lag
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::leaveraids
+Jogador | Utilidades | Disponível
+Solicita a saída de raids.
+
+::level2
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::levelup
+Conforme a ação | Habilidades e XP | Herdado
+Adiciona XP às sete habilidades de combate.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::loopgfx
+Dono | Administração | Disponível
+Testa efeitos gráficos.
+
+::lz
+Doador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::manualunnetban
+Dono | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::manualunnetmute
+Dono | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::master
+Conforme a ação | Habilidades e XP | Herdado
+Ajusta as sete habilidades de combate para nível 99.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::max
+Dono | Habilidades e XP | Disponível
+Define as habilidades como nível 99; também possui um tratamento antigo anterior.
+Exemplo: ::max
+Também possui tratamento antigo antes do comando registrado; variantes não são contadas como comandos diferentes.
+Possui um tratamento antigo anterior. Para definir todas explicitamente, prefira ::setlevel 0 23 99.
+
+::maxisland
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::maxks
+Moderador | Administração | Disponível
+Ferramenta para ajustar a sequência máxima de abates.
+
+::maxmelee
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::maxrange
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::maxslayer
+Moderador | Administração | Disponível
+Ferramenta herdada relacionada ao progresso de Extermínio.
+
+::mb
+Jogador | Utilidades | Disponível
+Teletransporta para Mage Bank.
+
+::mbox
+Jogador | Utilidades | Disponível
+Consulta tabelas de recompensas.
+
+::missoes
+Jogador | Atividades e viagens | Disponível
+Abre a lista de missões, progresso e diários.
+
+::move DIRECAO QUANTIDADE
+Moderador | Administração | Disponível
+Move o personagem uma quantidade de quadrados em uma direção.
+Exemplo: ::move north 1
+Direções: north, south, east, west, up, down.
+
+::movehome
+Conforme a ação | Ferramentas antigas | Herdado
+Move personagens para a área inicial pelo tratamento antigo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::multihittest
+Conforme a ação | Ferramentas antigas | Herdado
+Executa teste de múltiplos acertos.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::mute
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::netban
+Moderador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::netmute
+Moderador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::news
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::nightmaregear
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::note-TEXTO-NOME
+Moderador | Administração | Disponível
+Registra uma anotação administrativa para um jogador.
+
+::npc ID
+Dono | Administração | Disponível
+Cria ou testa NPCs. Não garante iniciar uma instância funcional de boss.
+Não garante criar uma instância de boss funcional.
+
+::npcanim
+Cliente local | Tela e cliente | Cliente
+Consulta dados de animações, efeitos ou interfaces do cache.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::npccount
+Conforme a ação | Ferramentas antigas | Herdado
+Consulta a quantidade de NPCs.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::npclog
+Dono | Administração | Disponível
+Ferramenta de diagnóstico do jogo.
+
+::nullrsi
+Cliente local | Tela e cliente | Cliente
+Consulta dados de animações, efeitos ou interfaces do cache.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::object ID [TIPO] [ORIENTACAO]
+Dono | Administração | Disponível
+Cria um objeto de teste na posição atual; aceita tipo e orientação.
+Padrões: tipo 10 e orientação 0.
+
+::objectanim
+Dono | Administração | Disponível
+Testa a animação de um objeto.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::olddice
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::onehit
+Conforme a ação | Combate e proteção | Herdado
+Eleva níveis de combate temporariamente para 999; não garante matar qualquer boss com um golpe.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::online
+Moderador | Administração | Disponível
+Lista jogadores ou funções conectadas.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::oome
+Cliente local | Tela e cliente | Cliente
+Provoca intencionalmente um erro de memória no cliente. Não use para jogar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::orbs
+Cliente local | Tela e cliente | Cliente
+Alterna uma opção visual ou de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::oz
+Doador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::packetlog
+Cliente local | Tela e cliente | Cliente
+Alterna dados visuais ou registros de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::packrsi
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::pc
+Jogador | Atividades e viagens | Disponível
+Leva a Pest Control.
+
+::pg
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::pin
+Jogador | Utilidades | Disponível
+Cria ou gerencia o PIN do personagem.
+
+::pnpc
+Administrador | Administração | Disponível
+Transforma a aparência do personagem em um NPC pelo ID.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::points
+Testes desativados | Testes desativados | Desativado
+Fornece itens ou pontos pelo grupo de testes.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::poisonme
+Conforme a ação | Ferramentas antigas | Herdado
+Aplica um estado negativo ao próprio personagem para teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::pos
+Dono | Atividades e viagens | Disponível
+Mostra as coordenadas atuais.
+Exemplo: ::pos
+
+::post
+Dono | Administração | Disponível
+Ferramenta interna herdada de desenvolvimento.
+
+::pots
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::prefetchmusic
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::pricecheck
+Conforme a ação | Ferramentas antigas | Herdado
+Abre a consulta de preços.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::printmillis
+Testes desativados | Testes desativados | Desativado
+Mostra o horário em milissegundos para diagnóstico.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::prizes
+Jogador | Utilidades | Disponível
+Consulta tabelas de recompensas.
+
+::profile
+Conforme a ação | Ferramentas antigas | Herdado
+Abre informações ou perfil do personagem.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::proj
+Conforme a ação | Ferramentas antigas | Herdado
+Testa projétil ou som pelo ID.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::q
+Moderador | Administração | Disponível
+Ferramenta de atendimento ou evento para outro jogador.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::qtest
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::questioning
+Moderador | Administração | Disponível
+Ferramenta de atendimento ou evento para outro jogador.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::quests
+Jogador | Atividades e viagens | Disponível
+Abre a lista de missões, progresso e diários.
+
+::questtabb
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::r1
+Cliente local | Tela e cliente | Cliente
+Alterna uma opção visual ou de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::raidkill
+Dono | Administração | Disponível
+Ferramenta de desenvolvimento para encontros ou instâncias.
+
+::raids
+Jogador | Atividades e viagens | Disponível
+Leva a Chambers of Xeric.
+
+::raidtest
+Dono | Administração | Disponível
+Ferramenta de desenvolvimento para encontros ou instâncias.
+
+::random
+Moderador | Administração | Disponível
+Ferramenta de atendimento ou evento para outro jogador.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::reclaimcalc
+Dono | Administração | Disponível
+Ferramenta administrativa de serviços herdados da base pública.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::reclaimwhitelist
+Dono | Administração | Disponível
+Ferramenta administrativa de serviços herdados da base pública.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::red
+Dono | Administração | Disponível
+Ferramenta visual de desenvolvimento herdada.
+
+::refreshskill ID
+Dono | Habilidades e XP | Disponível
+Atualiza a apresentação de uma habilidade pelo ID.
+IDs internos 0–22.
+
+::reload
+Dono | Administração | Disponível
+Recarrega dados do servidor; use as opções documentadas.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::reloadpoll
+Administrador | Administração | Disponível
+Recarrega a enquete da base.
+
+::removebots
+Testes desativados | Testes desativados | Desativado
+Gerencia jogadores artificiais de teste.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::removerights-NOME-CARGO
+Administrador | Administração | Disponível
+Remove um cargo específico de um personagem conectado.
+Exemplo: ::removerights-rodri-1
+Exemplo: ::removerights-rodri-2
+Remove apenas o cargo informado. No solo atual, OWNER é atribuído novamente no próximo login.
+
+::removeskull
+Dono | Administração | Disponível
+Adiciona ou remove a caveira do personagem.
+
+::reset
+Administrador | Administração | Disponível
+Redefine dados de um personagem conforme a ação informada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::resetcounter
+Cliente local | Tela e cliente | Cliente
+Controla a apresentação do contador de XP; não adiciona XP às habilidades.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::resetkdr
+Jogador | Utilidades | Disponível
+Consulta ou redefine a proporção de abates e mortes.
+
+::resetma2
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::resetskills
+Conforme a ação | Habilidades e XP | Herdado
+Redefine habilidades do personagem e altera o progresso.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::resetstats
+Dono | Habilidades e XP | Disponível
+Redefine habilidades do personagem e altera o progresso.
+
+::resettask
+Conforme a ação | Ferramentas antigas | Herdado
+Atribui ou reinicia tarefa de Extermínio conforme a variante.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::revs
+Jogador | Utilidades | Disponível
+Teletransporta para Revenant Caves.
+
+::rights
+Conforme a ação | Administração | Herdado
+Tratamento antigo de cargos; prefira addrights e removerights.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::rules
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::runes
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::safemode
+Administrador | Combate e proteção | Disponível
+Alterna a proteção contra perda de itens ao morrer.
+
+::saveall
+Dono | Administração | Disponível
+Aciona a rotina de salvamento e criação de backup.
+Exemplo: ::saveall
+
+::screenmode MODO
+Cliente local | Tela e cliente | Cliente
+Altera o modo de tela do cliente.
+Exemplo: ::screenmode resizable
+Exemplo: ::screenmode fixed
+
+::script-ID-PARAMETRO...
+Dono | Administração | Disponível
+Executa um script do cliente pelo ID e parâmetros.
+Ferramenta de desenvolvimento.
+
+::secretboss
+Nome específico no código | Utilidades | Restrito
+Ferramenta herdada relacionada a um boss; não equivale à entrada solo validada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::set ACAO QUANTIDADE
+Dono | Administração | Disponível
+Ajusta pontos de Extermínio, doação, PK e o modificador visual de jogadores.
+Exemplo: ::set slayer 1000
+Ações: slayer, dp, pkp, players. dp e pkp somam pontos; slayer define o saldo.
+
+::setaccuracybonus TIPO VALOR
+Dono | Administração | Disponível
+Ajusta bônus de combate para testes.
+Tipos: melee, range, mage, scythe.
+
+::setanim-NOME-PARADO-CAMINHADA-CORRIDA
+Administrador | Administração | Disponível
+Ajusta animações de um jogador.
+
+::setclanchatdelay MILISSEGUNDOS
+Dono | Administração | Disponível
+Ajusta o intervalo do chat de clã em milissegundos.
+
+::setdefencebonus TIPO VALOR
+Dono | Administração | Disponível
+Ajusta bônus de combate para testes.
+Tipos: melee, range, mage.
+
+::setgamemode
+Testes desativados | Testes desativados | Desativado
+Altera o modo do personagem pelo grupo de testes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::setgimjoins
+Administrador | Administração | Disponível
+Consulta ou gerencia dados de grupo Ironman.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::setlevel ID NIVEL
+Dono | Habilidades e XP | Disponível
+Define nível e XP de uma habilidade, pelo ID de 0 a 22 ou pelo nome em inglês. Também aceita um intervalo.
+Exemplo: ::setlevel 0 99
+Exemplo: ::setlevel attack 99
+Exemplo: ::setlevel 0 23 99
+Também possui tratamento antigo antes do comando registrado; variantes não são contadas como comandos diferentes.
+IDs 0–22, nível 1–99. No intervalo, o limite final é exclusivo. 0 23 abrange todas. Ajusta o XP e pode reduzi-lo.
+
+::setlevelstatus ID NIVEL
+Dono | Habilidades e XP | Disponível
+Ajusta o nível atual de uma habilidade, sem equivaler ao XP permanente.
+Ajusta o nível atual, não o XP permanente.
+
+::setloginlimit QUANTIDADE
+Dono | Administração | Disponível
+Consulta ou ajusta controles de conexão do servidor.
+
+::setprogressbar
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::setrun-NOME-ID
+Administrador | Administração | Disponível
+Ajusta animações de um jogador.
+
+::setstand-NOME-ID
+Administrador | Administração | Disponível
+Ajusta animações de um jogador.
+
+::setvotestreak-NOME-QUANTIDADE
+Dono | Administração | Disponível
+Ferramenta administrativa de serviços herdados da base pública.
+Depende do sistema de votos.
+
+::setwalk-NOME-ID
+Administrador | Administração | Disponível
+Ajusta animações de um jogador.
+
+::shield
+Administrador | Administração | Disponível
+Alterna uma aparência de NPC em forma de escudo.
+
+::shop ID
+Dono | Administração | Disponível
+Abre uma loja pelo ID.
+
+::sigil
+Administrador | Administração | Disponível
+Alterna uma aparência de NPC em forma de sigilo.
+
+::skill
+Jogador | Utilidades | Disponível
+Teletransporta a uma área de treinamento.
+
+::skull
+Jogador | Utilidades | Disponível
+Adiciona ou remove a caveira do personagem.
+
+::slayer
+Jogador | Atividades e viagens | Disponível
+Teletransporta à área ou ao mestre de Extermínio correspondente.
+
+::slayertask
+Testes desativados | Testes desativados | Desativado
+Atribui ou reinicia tarefa de Extermínio conforme a variante.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::smessage-NOME-MENSAGEM
+Administrador | Administração | Disponível
+Envia uma mensagem no próprio jogo, conforme o alcance do comando.
+
+::snow
+Cliente local | Tela e cliente | Condicional
+Alterna a neve quando o evento de Natal estiver habilitado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Só funciona com o evento de Natal habilitado.
+
+::solak
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta herdada relacionada a um boss; não equivale à entrada solo validada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::solo ACAO
+Jogador | Atividades e viagens | Disponível
+Acessa atividades, bosses e ferramentas do modo solo.
+Exemplo: ::solo heal
+Exemplo: ::solo home
+Exemplo: ::solo nex
+Veja as ações detalhadas abaixo. Saia da instância atual antes de entrar em outra.
+::solo heal — Recupera vida, remove estados negativos e restaura Oração.
+::solo home — Sai da atividade e retorna à área inicial.
+::solo nex — Entra no encontro solo com Nex.
+::solo hydra — Entra no encontro solo com Alchemical Hydra.
+::solo guardians — Entra em Grotesque Guardians.
+::solo nightmare — Entra em Nightmare.
+::solo sire — Entra em Abyssal Sire.
+::solo kq — Entra em Kalphite Queen.
+::solo toa — Entra na adaptação solo de Tombs of Amascut.
+::solo tob — Entra na adaptação solo de Theatre of Blood.
+::solo cox — Entra na adaptação solo de Chambers of Xeric.
+::solo inferno — Inicia Inferno.
+::solo pest — Entra na adaptação solo de Pest Control.
+::solo pestrewards — Abre as recompensas de Pest Control quando permitido.
+::solo magearena — Inicia Mage Arena.
+::solo birdhouses — Leva à área de Birdhouses e atualiza os pontos.
+::solo star [1..9] — Cria uma estrela de tamanho 1–9 e leva o personagem até ela.
+
+::sound
+Conforme a ação | Ferramentas antigas | Herdado
+Testa projétil ou som pelo ID.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::spawn
+Testes desativados | Testes desativados | Desativado
+Abre uma interface de criação de itens; spawn pertence ao grupo de testes desativado.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::spawngalvek
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta herdada relacionada a um boss; não equivale à entrada solo validada.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::spawnitem
+Dono | Itens e banco | Disponível
+Cria itens na mochila. Para o uso comum, prefira item.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::spawnmenu
+Administrador | Itens e banco | Disponível
+Abre uma interface de criação de itens; spawn pertence ao grupo de testes desativado.
+
+::spec
+Conforme a ação | Combate e proteção | Herdado
+Ajusta a energia de ataque especial.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::spells
+Administrador | Combate e proteção | Disponível
+Alterna o livro de magias.
+
+::stack
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de pilhas de itens.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::staff
+Jogador | Utilidades | Disponível
+Lista jogadores ou funções conectadas.
+
+::staffcommands
+Jogador | Utilidades | Disponível
+Exibe os comandos da equipe no jogo.
+
+::stafftab
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::stafftitle
+Moderador | Administração | Disponível
+Altera um título do personagem.
+
+::staffzone
+Moderador | Administração | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::startcerberus
+Dono | Administração | Disponível
+Ferramenta de desenvolvimento para encontros ou instâncias.
+
+::starter
+Conforme a ação | Ferramentas antigas | Herdado
+Fornece ou equipa materiais de teste; pode alterar mochila e equipamento.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::startinferno
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta de desenvolvimento para encontros ou instâncias.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::starttimer ID SEGUNDOS
+Cliente local | Tela e cliente | Cliente
+Exibe um temporizador local pelo ID e duração em segundos.
+Temporizador visual.
+
+::starttournament
+Conforme a ação | Ferramentas antigas | Herdado
+Consulta ou administra o evento de torneio.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::store
+Conforme a ação | Serviços externos | Herdado
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::streak
+Jogador | Atividades e viagens | Disponível
+Consulta a tarefa de Extermínio ou sua sequência.
+
+::stuck
+Jogador | Atividades e viagens | Disponível
+Retorna à área inicial; stuck é a rotina para personagem preso.
+
+::stuckraids
+Jogador | Utilidades | Disponível
+Solicita a saída de raids.
+
+::stylewarning
+Jogador | Utilidades | Disponível
+Alterna uma preferência ou aviso da base.
+
+::suggestion
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::switch
+Administrador | Combate e proteção | Disponível
+Alterna o livro de magias.
+
+::sz
+Ajudante | Administração | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::takeitem-NOME-ID-QUANTIDADE
+Administrador | Itens e banco | Disponível
+Remove itens de outro jogador.
+Remove itens.
+
+::task
+Jogador | Atividades e viagens | Disponível
+Consulta a tarefa de Extermínio ou sua sequência.
+
+::tele X Y [Z]
+Administrador | Atividades e viagens | Disponível
+Teletransporta para X e Y, com andar Z opcional.
+Exemplo: ::tele 3101 3509 0
+Z é o andar; se omitido, mantém o atual.
+
+::teleto
+Conforme a ação | Ferramentas antigas | Herdado
+Teletransporta até um jogador conectado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::teletome
+Moderador | Administração | Disponível
+Traz um jogador conectado até você.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Também possui tratamento antigo antes do comando registrado; variantes não são contadas como comandos diferentes.
+
+::test
+Testes desativados | Testes desativados | Desativado
+Conjunto de rotinas de teste da base.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::testdonationrewards
+Testes desativados | Testes desativados | Desativado
+Fornece itens ou pontos pelo grupo de testes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+O grupo test não é roteado: Configuration.DEBUG_MODE=false. Isso é diferente do modo solo server_state=DEBUG.
+
+::testdroptable-NPCID-QUANTIDADE
+Dono | Administração | Disponível
+Simula drops; algumas variantes podem limpar o banco.
+Simulação; não é uma luta normal.
+
+::testherb
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::testlink
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::testweapondata
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste; consulte a implementação antes de usar.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::threaddump
+Cliente local | Tela e cliente | Cliente
+Gera um arquivo de diagnóstico de memória do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::toggle
+Jogador | Utilidades | Disponível
+Alterna uma preferência ou aviso da base.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::togglealch
+Jogador | Utilidades | Disponível
+Alterna uma preferência ou aviso da base.
+
+::togglecounter
+Cliente local | Tela e cliente | Cliente
+Controla a apresentação do contador de XP; não adiciona XP às habilidades.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::toggledrop
+Jogador | Utilidades | Disponível
+Alterna uma preferência ou aviso da base.
+
+::topic
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::tournament
+Conforme a ação | Ferramentas antigas | Herdado
+Consulta ou administra o evento de torneio.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::tournykick
+Conforme a ação | Ferramentas antigas | Herdado
+Consulta ou administra o evento de torneio.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::train
+Jogador | Utilidades | Disponível
+Teletransporta a uma área de treinamento.
+
+::tt
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::tut
+Conforme a ação | Ferramentas antigas | Herdado
+Ferramenta antiga de teste do tutorial.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::uint
+Cliente local | Tela e cliente | Cliente
+Alterna uma opção visual ou de diagnóstico do cliente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::unban
+Moderador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::uncage
+Jogador | Utilidades | Disponível
+Solicita saída da jaula em Theatre of Blood quando permitido.
+
+::unccmute
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::uncharge ID [POSICAO]
+Jogador | Itens e banco | Disponível
+Descarrega uma arma na mochila e devolve os materiais recuperáveis.
+Exemplo: ::uncharge 27275
+Arma na mochila. Posição opcional: 1–28.
+
+::ungambleban
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::unjail
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+
+::unmute
+Ajudante | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::unnetban
+Moderador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::unnetmute
+Administrador | Administração | Disponível
+Administra punições. Os nomes iniciados por un removem a punição correspondente.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::unpc
+Dono | Administração | Disponível
+Restaura a aparência normal do personagem.
+
+::unpnpc
+Administrador | Administração | Disponível
+Restaura a aparência normal do personagem.
+
+::update SEGUNDOS
+Moderador | Administração | Disponível
+Agenda atualização e encerramento do mundo; pode interromper a partida.
+Também possui tratamento antigo antes do comando registrado; variantes não são contadas como comandos diferentes.
+Agenda a atualização do servidor.
+
+::venomme
+Conforme a ação | Ferramentas antigas | Herdado
+Aplica um estado negativo ao próprio personagem para teste.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::vials
+Jogador | Utilidades | Disponível
+Alterna uma preferência ou aviso da base.
+
+::viewaccounts
+Ajudante | Administração | Disponível
+Consulta informações de personagens ou conexões.
+
+::visible
+Administrador | Administração | Disponível
+Alterna a invisibilidade do personagem.
+
+::vote
+Jogador | Serviços externos | Disponível
+Acessa um serviço externo herdado da base pública; pode não funcionar no jogo solo.
+Comando herdado de servidor público; a presença no código não garante que o serviço externo funcione.
+
+::walkableinterface
+Cliente local | Tela e cliente | Cliente
+Ferramenta local de apresentação ou diagnóstico; consulte os detalhes.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+Exige cargo de administrador no cliente ou modo de desenvolvedor.
+
+::wests
+Jogador | Utilidades | Disponível
+Teletransporta para a área indicada pelo comando, conforme os requisitos da base.
+
+::wild
+Jogador | Utilidades | Disponível
+Abre o aviso de Wilderness.
+
+::wildlevel
+Conforme a ação | Ferramentas antigas | Herdado
+Consulta o nível atual de Wilderness.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::withdrawmp
+Conforme a ação | Ferramentas antigas | Herdado
+Retira Coins da bolsa de moedas.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::xp
+Cliente local | Tela e cliente | Cliente
+Exibe um aviso legado sobre XP drops; não adiciona XP às habilidades.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::xteleto
+Moderador | Administração | Disponível
+Teletransporta até um jogador conectado.
+Formato completo dos parâmetros não documentado. Consulte referências na página HTML.
+
+::yell message
+Jogador | Utilidades | Disponível
+Envia uma mensagem no próprio jogo, conforme o alcance do comando.

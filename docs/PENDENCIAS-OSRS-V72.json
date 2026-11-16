@@ -1,0 +1,114 @@
+{
+  "game": "MyRuneS MMO (OSRS)",
+  "version": 72,
+  "date": "2026-11-08",
+  "status": "jogavel_preservado_para_retomada",
+  "all_official_content_complete": false,
+  "installation": "D:\\Games\\OSRS\\OSRS-Moderno",
+  "executable": "D:\\Games\\OSRS\\OSRS-Moderno\\MyRuneS MMO.exe",
+  "clean_package": "D:\\Games\\OSRS\\entregas\\MyRuneS-MMO-V72.zip",
+  "source": "D:\\Games\\OSRS\\work\\osrs-seven-areas\\source",
+  "save_folders": [
+    "runtime/server/save_files",
+    "runtime/userdata"
+  ],
+  "priorities": "Quests e diários; novas alterações em PT-BR. RS3 como frente atual separada.",
+  "items": [
+    {
+      "id": "Q01",
+      "title": "Quests oficiais restantes",
+      "priority": "Alta",
+      "status": "Aberto",
+      "details": "A base registra 9 entradas. Implementar as campanhas e cadeias ainda ausentes, incluindo Dragon Slayer I/II, Recipe for Disaster, Desert Treasure, Lost City/Fairy Tale, Fremennik e elfos. A lista citada é ilustrativa; o inventário oficial completo ainda precisa ser fechado.",
+      "acceptance": "Uma campanha por vez, com requisitos, roteiro, recompensas, recuperação de itens e retomada após sair."
+    },
+    {
+      "id": "Q02",
+      "title": "Campanhas resumidas da base",
+      "priority": "Alta",
+      "status": "Aberto",
+      "details": "Monkey Madness e Horror From The Deep permanecem adaptações curtas. Learning The Ropes é tutorial customizado.",
+      "acceptance": "Refazer como campanhas completas, sem substituir a aventura por autoconclusão."
+    },
+    {
+      "id": "D01",
+      "title": "Diários oficiais completos",
+      "priority": "Alta",
+      "status": "Aberto",
+      "details": "11 regiões e 188 tarefas ativas adaptadas; 189 descrições encontradas nas fontes. Faltam Kourend & Kebos e migração para tarefas, benefícios, lâmpadas e requisitos oficiais.",
+      "acceptance": "Inventariar por região e nível; testar tarefas reais e resgates. Os 44 resgates passaram nos testes anteriores, mas as 188 tarefas não foram todas percorridas no cliente."
+    },
+    {
+      "id": "U01",
+      "title": "Desbloqueios ligados às campanhas",
+      "priority": "Alta",
+      "status": "Aberto",
+      "details": "Acessos, lojas, magias e equipamentos da base solo ainda podem ignorar quests oficiais ausentes.",
+      "acceptance": "Conectar requisitos a cada nova campanha sem bloquear conteúdo por missões ainda não implementadas."
+    },
+    {
+      "id": "S01",
+      "title": "Fidelidade integral das 23 skills",
+      "priority": "Média",
+      "status": "Inventário pendente",
+      "details": "Há conteúdo jogável revisado nas 23 skills; não há certificação de todas as mecânicas oficiais. Não há uma lista granular definitiva de tudo que falta por habilidade.",
+      "acceptance": "Auditar o que existe antes de prometer conclusão. Não confundir treino básico ou arquivo de implementação com funcionamento completo."
+    },
+    {
+      "id": "M01",
+      "title": "Museu e Kudos",
+      "priority": "Média",
+      "status": "Aberto",
+      "details": "O bônus de Rune Mysteries com Historian Minas é persistido; museu completo e demais Kudos não foram implementados.",
+      "acceptance": "Implementar e validar progressos e recompensas sem duplicação."
+    },
+    {
+      "id": "V01",
+      "title": "Cenas e apresentação",
+      "priority": "Baixa",
+      "status": "Aberto",
+      "details": "A cena do fantasma e outros detalhes são adaptações próprias, não reproduções integrais oficiais.",
+      "acceptance": "Melhorar quando necessário para compreender e concluir campanhas."
+    },
+    {
+      "id": "T01",
+      "title": "Ajustes editoriais de PT-BR",
+      "priority": "Baixa",
+      "status": "Contínuo",
+      "details": "Tradução geral aplicada na V71, com revisão manual do núcleo e dos diários. Textos raros podem conter traduções ruins.",
+      "acceptance": "Corrigir conforme encontrados; toda nova interface/mensagem já deve nascer em PT-BR. Nomes de itens, NPCs e bosses em inglês."
+    },
+    {
+      "id": "QA01",
+      "title": "Sessão prolongada de jogo",
+      "priority": "Alta",
+      "status": "Pendente",
+      "details": "Testes de servidor e sessões curtas nativas passaram; não houve ensaio de muitas horas cobrindo todo o conteúdo.",
+      "acceptance": "Jogar com conta de teste isolada, registrar erros, testar banco, equipamentos, morte, drops, logout/reentrada e salvamento."
+    },
+    {
+      "id": "QA02",
+      "title": "Percurso nativo das campanhas novas",
+      "priority": "Média",
+      "status": "Parcial",
+      "details": "Cook’s Assistant foi percorrida no cliente; as outras três campanhas novas passaram em testes de servidor, sem execução completa de cliques no cliente.",
+      "acceptance": "Percorrer Sheep Shearer, The Restless Ghost e Rune Mysteries do início ao fim."
+    },
+    {
+      "id": "B01",
+      "title": "Compilação integral em ambiente limpo",
+      "priority": "Média",
+      "status": "Não certificada",
+      "details": "As entregas usam recompilações verificadas sobre a base instalada. A compilação Gradle integral em ambiente limpo ainda não está certificada.",
+      "acceptance": "Preparar dependências e reproduzir a construção sem depender de classes antigas."
+    },
+    {
+      "id": "C01",
+      "title": "Comandos antigos e de teste",
+      "priority": "Baixa",
+      "status": "Catalogado; validação parcial",
+      "details": "COMANDOS.html lista 367 nomes e 25 ações detalhadas. Parte dos formatos antigos não está bem documentada; 17 implementações do grupo test ficam desativadas.",
+      "acceptance": "Não executar testes destrutivos na conta pessoal. Validar comandos úteis e corrigir conflitos dos handlers antigos quando necessário."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+FALCONRY FACT REFERENCES V41 — Numeric facts through 2022; historical article bodies are not redistributed.
+Falconry | 14297544 | 2022-06-25T21:39:39Z | https://oldschool.runescape.wiki/w/Falconry?oldid=14297544
+Matthias | 14261023 | 2022-03-29T00:38:44Z | https://oldschool.runescape.wiki/w/Matthias?oldid=14261023
+Spotted kebbit | 14267536 | 2022-03-29T21:20:54Z | https://oldschool.runescape.wiki/w/Spotted_kebbit?oldid=14267536
+Dark kebbit | 14267678 | 2022-03-29T21:24:22Z | https://oldschool.runescape.wiki/w/Dark_kebbit?oldid=14267678
+Dashing kebbit | 14352067 | 2022-12-13T05:53:45Z | https://oldschool.runescape.wiki/w/Dashing_kebbit?oldid=14352067
+Falconer's glove | 14073174 | 2021-05-06T03:12:27Z | https://oldschool.runescape.wiki/w/Falconer%27s_glove?oldid=14073174
+Gyr Falcon | 14261022 | 2022-03-29T00:38:43Z | https://oldschool.runescape.wiki/w/Gyr_Falcon?oldid=14261022
+Piscatoris falconry area | 14334703 | 2022-10-14T12:14:27Z | https://oldschool.runescape.wiki/w/Piscatoris_falconry_area?oldid=14334703
+
+Native cached NPCs 1340, 1342, 5531..5533; native cached projectile 918; animation IDs 5160..5168 and 5198; actual cached stile 19222 has a 1x2 footprint. Independent implementation; no external creative AGPL implementation imported. Unpublished timers and moving-target rule are explicitly local.

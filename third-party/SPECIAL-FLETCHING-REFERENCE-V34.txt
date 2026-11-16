@@ -1,0 +1,12 @@
+Factual rules from archived revisions through2022; no article bodies distributed.
+
+Kebbit bolts | 14069531 | 2021-05-04T00:28:44Z | https://oldschool.runescape.wiki/w/Kebbit_bolts?oldid=14069531
+Long kebbit bolts | 14134107 | 2021-08-01T20:22:00Z | https://oldschool.runescape.wiki/w/Long_kebbit_bolts?oldid=14134107
+Kebbit spike | 13670239 | 2020-10-20T12:54:35Z | https://oldschool.runescape.wiki/w/Kebbit_spike?oldid=13670239
+Long kebbit spike | 14243540 | 2022-02-09T03:32:45Z | https://oldschool.runescape.wiki/w/Long_kebbit_spike?oldid=14243540
+Mith grapple | 14356564 | 2022-12-30T21:44:11Z | https://oldschool.runescape.wiki/w/Mith_grapple?oldid=14356564
+Mith grapple (unf) | 14264642 | 2022-03-29T05:07:00Z | https://oldschool.runescape.wiki/w/Mith_grapple_%28unf%29?oldid=14264642
+Mith grapple tip | 14335305 | 2022-10-17T03:28:05Z | https://oldschool.runescape.wiki/w/Mith_grapple_tip?oldid=14335305
+
+Numeric item facts: https://github.com/0xNeffarion/osrsreboxed-db/tree/2803670ab140f850ac8813e606dc1237d7893ea2
+Existing license in OSRSReboxed-LICENSE.txt. No code imported from Kronos or2009scape.

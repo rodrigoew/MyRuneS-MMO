@@ -1,0 +1,12 @@
+Rules checked against historical changes and the original 2019 announcement:
+https://oldschool.runescape.wiki/w/Update:Song_of_the_Elves
+https://oldschool.runescape.wiki/w/Update:Poll_70_Improvements
+https://oldschool.runescape.wiki/w/Crystal_pickaxe
+https://oldschool.runescape.wiki/w/Bracelet_of_clay
+https://oldschool.runescape.wiki/w/Mining_gloves
+https://oldschool.runescape.wiki/w/Superior_mining_gloves
+https://oldschool.runescape.wiki/w/Expert_mining_gloves
+No 2025 bank Configure-Charges or 2024 glove changes imported.
+Original cache confirms bowl36552 at3239,6066 and3295,6045, plus native items.
+Implementation original for this Java server; OpenRune ISC mining delay reference
+remains documented in MINING-REFERENCE-V13.txt and OpenRune-LICENSE.txt.

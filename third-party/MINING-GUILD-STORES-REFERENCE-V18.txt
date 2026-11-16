@@ -1,0 +1,5 @@
+Historical facts: Hendor shop rev14260098 and Yarsul shop rev14260097, both2022-03-28.
+https://oldschool.runescape.wiki/w/Hendor%27s_Awesome_Ores?oldid=14260098
+https://oldschool.runescape.wiki/w/Yarsul%27s_Prodigious_Pickaxes?oldid=14260097
+Shooting Stars rev14354288 explicitly lists76landing sites in trivia.
+OpenRune/OpenRune-Server ISC, commitc4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f: api/shops/cost/StandardGpCostCalculations.kt and restock/ShopRestockProcess.kt; arithmetic and shared phase referenced, adapted independently to this server. See OpenRune-LICENSE.txt.

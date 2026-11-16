@@ -1,0 +1,18 @@
+OpenRune/OpenRune-Server, ISC (OpenRune-LICENSE.txt).
+Pinned commit c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+https://github.com/OpenRune/OpenRune-Server/commit/c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+References: or-cache/src/main/kotlin/dev/openrune/tables/skills/Mining.kt
+and content/skills/mining. Ore coefficients, delays, tier metadata and structure.
+Historical filtering: no 2024 fixed glove extractions; no sailing ores or newer
+mining content. Infernal consumes ores, not the bars produced in that module.
+No wholesale import and no claim that the reference itself is fully certified.
+Numeric Prifddinas object IDs checked against RuneLite's generated gamevals:
+https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/gameval/ObjectID1.java
+Rules: https://oldschool.runescape.wiki/w/Mining
+https://oldschool.runescape.wiki/w/Mining_enhancers
+https://oldschool.runescape.wiki/w/Infernal_pickaxe
+https://oldschool.runescape.wiki/w/Celestial_ring
+https://oldschool.runescape.wiki/w/Expert_mining_gloves
+https://oldschool.runescape.wiki/w/Varrock_armour_1
+https://oldschool.runescape.wiki/w/Varrock_armour_4
+Later partial infernal recharge/toggle and fixed glove protection were excluded.

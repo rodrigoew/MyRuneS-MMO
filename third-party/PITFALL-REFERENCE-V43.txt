@@ -1,0 +1,12 @@
+PITFALL REFERENCES V43 — Numeric historical facts; article bodies are not redistributed.
+Pitfall | 14215032 | 2021-12-06T16:18:30Z | https://oldschool.runescape.wiki/w/Pitfall?oldid=14215032
+Spined larupia | 14267553 | 2022-03-29T21:21:19Z | https://oldschool.runescape.wiki/w/Spined_larupia?oldid=14267553
+Horned graahk | 14267677 | 2022-03-29T21:24:21Z | https://oldschool.runescape.wiki/w/Horned_graahk?oldid=14267677
+Sabre-toothed kyatt | 14260682 | 2022-03-29T00:32:30Z | https://oldschool.runescape.wiki/w/Sabre-toothed_kyatt?oldid=14260682
+Teasing stick | 14290607 | 2022-06-01T03:47:49Z | https://oldschool.runescape.wiki/w/Teasing_stick?oldid=14290607
+Larupia fur | 13966251 | 2020-12-02T22:01:14Z | https://oldschool.runescape.wiki/w/Larupia_fur?oldid=13966251
+Graahk fur | 13933916 | 2020-11-23T09:42:33Z | https://oldschool.runescape.wiki/w/Graahk_fur?oldid=13933916
+Kyatt fur | 13668904 | 2020-10-20T11:46:13Z | https://oldschool.runescape.wiki/w/Kyatt_fur?oldid=13668904
+Aleck's Hunter Emporium. | 14288788 | 2022-05-26T05:38:11Z | https://oldschool.runescape.wiki/w/Aleck%27s_Hunter_Emporium.?oldid=14288788
+
+Native cached parent/child scenery, three-bit states, NPC size, actions, models and animations checked against installed data. RuneLite gameval numeric object/animation names aided identification. All 16 native parent2x2 objects and64 pieces retained, packed config917/918 synchronized in habitats without overwriting other fields. No external creative pitfall implementation imported. Catch/fur/damage distributions, pursuit, range and timing choices remain local and are explicitly described.

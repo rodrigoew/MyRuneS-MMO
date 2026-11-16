@@ -1,0 +1,8 @@
+SKILLCAPE REFERENCES V50 — Numeric facts; article bodies are not redistributed.
+https://secure.runescape.com/m=news/skillcape-perk-improvements?oldschool=1
+Agility cape | 14356879 | 2022-12-31T06:05:49Z | https://oldschool.runescape.wiki/w/Agility_cape?oldid=14356879
+Max cape | 14356773 | 2022-12-31T02:15:58Z | https://oldschool.runescape.wiki/w/Max_cape?oldid=14356773
+Cap'n Izzy No-Beard | 14260545 | 2022-03-29T00:29:48Z | https://oldschool.runescape.wiki/w/Cap%27n_Izzy_No-Beard?oldid=14260545
+Agility hood | 14108021 | 2021-07-03T23:07:04Z | https://oldschool.runescape.wiki/w/Agility_hood?oldid=14108021
+Repeatable events | 14311362 | 2022-08-10T20:19:14Z | https://oldschool.runescape.wiki/w/Repeatable_events?oldid=14311362
+Longer active stamina preservation is an explicit local policy with official edge behavior still unverified.

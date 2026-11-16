@@ -1,0 +1,19 @@
+NET TRAP / TORCH REFERENCES V42 — Numeric historical facts; article bodies are not redistributed.
+Hunter | 14347679 | 2022-11-30T22:08:38Z | https://oldschool.runescape.wiki/w/Hunter?oldid=14347679
+Net trap | 14343910 | 2022-11-14T23:26:01Z | https://oldschool.runescape.wiki/w/Net_trap?oldid=14343910
+Young tree | 14158941 | 2021-08-20T20:06:41Z | https://oldschool.runescape.wiki/w/Young_tree?oldid=14158941
+Swamp lizard (Hunter) | 14267424 | 2022-03-29T21:17:59Z | https://oldschool.runescape.wiki/w/Swamp_lizard_%28Hunter%29?oldid=14267424
+Orange salamander (Hunter) | 14330881 | 2022-10-02T15:15:37Z | https://oldschool.runescape.wiki/w/Orange_salamander_%28Hunter%29?oldid=14330881
+Red salamander (Hunter) | 14331480 | 2022-10-04T15:37:20Z | https://oldschool.runescape.wiki/w/Red_salamander_%28Hunter%29?oldid=14331480
+Black salamander (Hunter) | 14270167 | 2022-04-03T08:09:55Z | https://oldschool.runescape.wiki/w/Black_salamander_%28Hunter%29?oldid=14270167
+Swamp lizard | 14332960 | 2022-10-09T20:08:59Z | https://oldschool.runescape.wiki/w/Swamp_lizard?oldid=14332960
+Orange salamander | 14332994 | 2022-10-09T22:02:34Z | https://oldschool.runescape.wiki/w/Orange_salamander?oldid=14332994
+Red salamander | 14350884 | 2022-12-09T05:06:18Z | https://oldschool.runescape.wiki/w/Red_salamander?oldid=14350884
+Black salamander | 14355925 | 2022-12-30T01:42:16Z | https://oldschool.runescape.wiki/w/Black_salamander?oldid=14355925
+Guam tar | 14343899 | 2022-11-14T22:17:20Z | https://oldschool.runescape.wiki/w/Guam_tar?oldid=14343899
+Marrentill tar | 14332974 | 2022-10-09T20:29:18Z | https://oldschool.runescape.wiki/w/Marrentill_tar?oldid=14332974
+Tarromin tar | 14332973 | 2022-10-09T20:29:16Z | https://oldschool.runescape.wiki/w/Tarromin_tar?oldid=14332973
+Harralander tar | 14332976 | 2022-10-09T20:29:31Z | https://oldschool.runescape.wiki/w/Harralander_tar?oldid=14332976
+Torch | 14325540 | 2022-09-19T12:31:51Z | https://oldschool.runescape.wiki/w/Torch?oldid=14325540
+
+Native cached models, actions, animations and actual 49 tree locations were checked against installed data. A joined coordinate in the 2022 page was resolved as two actual sites, 3562,3434 and 3677,3403. RuneLite gameval ObjectID/AnimationID numeric state names aided identification and were confirmed against the installed definitions. No external creative trap implementation imported. Timing, attraction, idle expiry, range and unpublished rounding remain local choices, explicitly documented.

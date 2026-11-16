@@ -1,0 +1,9 @@
+Historical furniture/tablet facts from OSRS Wiki revisions <=2022-12-31; individual recipe revision IDs and exact material/XP tables:patches/tools/study-v27-recipe-facts.json and study-v27-tablet-facts.json.
+https://oldschool.runescape.wiki/w/Study
+https://oldschool.runescape.wiki/w/Lectern_space
+https://oldschool.runescape.wiki/w/Telescope_space
+https://oldschool.runescape.wiki/w/Crystal_ball_space
+https://oldschool.runescape.wiki/w/S.t.a.s.h_blueprint
+https://oldschool.runescape.wiki/w/Watson
+Secondary geometry comparison:shockstruck/Kronos-184; no implementation bodies imported. Historical individual/hotspot mahogany scope281 overrides erroneous Study summary580; one gold leaf on mahogany lecterns, rather than secondary two.
+Native object/actions independently probed in the installed client cache.

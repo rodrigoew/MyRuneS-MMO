@@ -1,0 +1,119 @@
+{
+  "reference": "osrsreboxed-db@2803670ab140f850ac8813e606dc1237d7893ea2",
+  "records": [
+    {
+      "id": 9416,
+      "name": "Mith grapple tip",
+      "cost": 30,
+      "noted": false,
+      "stackable": false,
+      "noteId": 9417,
+      "requirements": null
+    },
+    {
+      "id": 9417,
+      "name": "Mith grapple tip",
+      "cost": 30,
+      "noted": true,
+      "stackable": true,
+      "noteId": 9416,
+      "requirements": null
+    },
+    {
+      "id": 9418,
+      "name": "Mith grapple",
+      "cost": 48,
+      "noted": false,
+      "stackable": false,
+      "noteId": 11275,
+      "requirements": null
+    },
+    {
+      "id": 9419,
+      "name": "Mith grapple",
+      "cost": 1,
+      "noted": false,
+      "stackable": false,
+      "noteId": 11276,
+      "requirements": {
+        "ranged": 1
+      }
+    },
+    {
+      "id": 11275,
+      "name": "Mith grapple",
+      "cost": 48,
+      "noted": true,
+      "stackable": true,
+      "noteId": 9418,
+      "requirements": null
+    },
+    {
+      "id": 11276,
+      "name": "Mith grapple",
+      "cost": 1,
+      "noted": true,
+      "stackable": true,
+      "noteId": 9419,
+      "requirements": null
+    },
+    {
+      "id": 10105,
+      "name": "Kebbit spike",
+      "cost": 90,
+      "noted": false,
+      "stackable": false,
+      "noteId": 10106,
+      "requirements": null
+    },
+    {
+      "id": 10106,
+      "name": "Kebbit spike",
+      "cost": 90,
+      "noted": true,
+      "stackable": true,
+      "noteId": 10105,
+      "requirements": null
+    },
+    {
+      "id": 10107,
+      "name": "Long kebbit spike",
+      "cost": 150,
+      "noted": false,
+      "stackable": false,
+      "noteId": 10108,
+      "requirements": null
+    },
+    {
+      "id": 10108,
+      "name": "Long kebbit spike",
+      "cost": 150,
+      "noted": true,
+      "stackable": true,
+      "noteId": 10107,
+      "requirements": null
+    },
+    {
+      "id": 10158,
+      "name": "Kebbit bolts",
+      "cost": 18,
+      "noted": false,
+      "stackable": true,
+      "noteId": null,
+      "requirements": {
+        "ranged": 50
+      }
+    },
+    {
+      "id": 10159,
+      "name": "Long kebbit bolts",
+      "cost": 31,
+      "noted": false,
+      "stackable": true,
+      "noteId": null,
+      "requirements": {
+        "ranged": 50
+      }
+    }
+  ]
+}

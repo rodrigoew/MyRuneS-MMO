@@ -1,0 +1,40 @@
+---
+id: 23
+name: "Aleck's Hunter Emporium"
+items:
+- id: 10010
+  amount: 5
+  price: 24
+- id: 10012
+  amount: 100
+  price: 1
+- id: 10025
+  amount: 30
+  price: 720
+- id: 10150
+  amount: 50
+  price: 4
+- id: 10006
+  amount: 50
+  price: 6
+- id: 10008
+  amount: 25
+  price: 38
+- id: 10029
+  amount: 5
+  price: 60
+- id: 596
+  amount: 20
+  price: 4
+- id: 10031
+  amount: 10
+  price: 18
+- id: 12740
+  amount: 3
+  price: 606
+- id: 12742
+  amount: 3
+  price: 3840
+- id: 12744
+  amount: 3
+  price: 72000

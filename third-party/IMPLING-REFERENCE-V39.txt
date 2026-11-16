@@ -1,0 +1,26 @@
+IMPLING/ELNOCK FACT REFERENCES V39 — Historical numeric facts through2022; article bodies are not redistributed.
+Impling | 14342919 | 2022-11-10T02:11:56Z | https://oldschool.runescape.wiki/w/Impling?oldid=14342919
+Impetuous Impulses | 14341084 | 2022-11-04T20:21:15Z | https://oldschool.runescape.wiki/w/Impetuous_Impulses?oldid=14341084
+Baby impling | 14340926 | 2022-11-04T09:31:38Z | https://oldschool.runescape.wiki/w/Baby_impling?oldid=14340926
+Young impling | 14340771 | 2022-11-03T18:20:56Z | https://oldschool.runescape.wiki/w/Young_impling?oldid=14340771
+Gourmet impling | 14340772 | 2022-11-03T18:21:10Z | https://oldschool.runescape.wiki/w/Gourmet_impling?oldid=14340772
+Earth impling | 14340773 | 2022-11-03T18:21:27Z | https://oldschool.runescape.wiki/w/Earth_impling?oldid=14340773
+Essence impling | 14340774 | 2022-11-03T18:21:47Z | https://oldschool.runescape.wiki/w/Essence_impling?oldid=14340774
+Eclectic impling | 14340775 | 2022-11-03T18:22:07Z | https://oldschool.runescape.wiki/w/Eclectic_impling?oldid=14340775
+Nature impling | 14340776 | 2022-11-03T18:22:30Z | https://oldschool.runescape.wiki/w/Nature_impling?oldid=14340776
+Magpie impling | 14350423 | 2022-12-07T06:10:31Z | https://oldschool.runescape.wiki/w/Magpie_impling?oldid=14350423
+Ninja impling | 14340778 | 2022-11-03T18:23:17Z | https://oldschool.runescape.wiki/w/Ninja_impling?oldid=14340778
+Crystal impling | 14340781 | 2022-11-03T18:25:38Z | https://oldschool.runescape.wiki/w/Crystal_impling?oldid=14340781
+Dragon impling | 14340779 | 2022-11-03T18:23:32Z | https://oldschool.runescape.wiki/w/Dragon_impling?oldid=14340779
+Lucky impling | 14340936 | 2022-11-04T12:44:22Z | https://oldschool.runescape.wiki/w/Lucky_impling?oldid=14340936
+Elnock Inquisitor | 14339119 | 2022-10-29T19:12:02Z | https://oldschool.runescape.wiki/w/Elnock_Inquisitor?oldid=14339119
+Jar generator | 14341245 | 2022-11-05T11:09:50Z | https://oldschool.runescape.wiki/w/Jar_generator?oldid=14341245
+Impling scroll | 14069051 | 2021-05-03T20:33:37Z | https://oldschool.runescape.wiki/w/Impling_scroll?oldid=14069051
+Imp repellent | 14338498 | 2022-10-27T19:47:52Z | https://oldschool.runescape.wiki/w/Imp_repellent?oldid=14338498
+Magical wheat | 14340650 | 2022-11-03T08:21:51Z | https://oldschool.runescape.wiki/w/Magical_wheat?oldid=14340650
+Ugthanki kebab | 14320344 | 2022-09-03T16:42:05Z | https://oldschool.runescape.wiki/w/Ugthanki_kebab?oldid=14320344
+Ancient kiteshield | 14264710 | 2022-03-29T05:08:24Z | https://oldschool.runescape.wiki/w/Ancient_kiteshield?oldid=14264710
+Grubby key | 14336140 | 2022-10-20T19:36:25Z | https://oldschool.runescape.wiki/w/Grubby_key?oldid=14336140
+Crystal acorn | 14260334 | 2022-03-28T22:17:02Z | https://oldschool.runescape.wiki/w/Crystal_acorn?oldid=14260334
+
+Additional historical Rewardcasket(easy/medium/hard/elite/master) tables and Module:Skilling success chart were checked. Lucky weighted probabilities retain exact rational inputs; a linked three-potion hard reward remains one outcome. All behavior independently implemented; no creative AGPL code imported. Spawn/flight and additional activities remain pending, explicitly documented inREVISAO-V39.txt.

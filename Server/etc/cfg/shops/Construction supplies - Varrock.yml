@@ -1,0 +1,19 @@
+---
+id: 224
+name: "Construction supplies - Varrock"
+items:
+- id: 8794
+  amount: 1000
+  price: 13
+- id: 8790
+  amount: 1000
+  price: 650
+- id: 4819
+  amount: 1000
+  price: 2
+- id: 4820
+  amount: 1000
+  price: 5
+- id: 1539
+  amount: 1000
+  price: 3

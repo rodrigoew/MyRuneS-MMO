@@ -1,0 +1,3 @@
+package io.xeros.solo;
+import io.xeros.*;import io.xeros.model.entity.player.Player;
+public class ToaTileCheck{public static void main(String[]a)throws Exception{Thread.setDefaultUncaughtExceptionHandler((t,e)->{e.printStackTrace();System.exit(1);});Thread.currentThread().setName("GameThread");System.setProperty("solo.mode","true");Server.startServerless();Player p=BossRoutesCheck.actor();for(int[] r:new int[][]{{3785,3830,5134,5175},{3675,3706,5397,5422}}){System.out.println("REGION "+r[0]+" HEIGHT 1");for(int y=r[3];y>=r[2];y--){String line=y+" ";for(int x=r[0];x<=r[1];x++)line+=(p.getRegionProvider().getClipping(x,y,1)&0x1280100)==0?".":"#";System.out.println(line);}}System.out.println("TILE_AUDIT_PASS");System.exit(0);}}

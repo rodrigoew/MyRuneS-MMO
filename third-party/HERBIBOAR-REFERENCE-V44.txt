@@ -1,0 +1,12 @@
+HERBIBOAR REFERENCES V44 — Numeric historical facts; article bodies are not redistributed.
+Herbiboar | 14335288 | 2022-10-17T03:27:04Z | https://oldschool.runescape.wiki/w/Herbiboar?oldid=14335288
+Herbi | 14346780 | 2022-11-29T01:42:42Z | https://oldschool.runescape.wiki/w/Herbi?oldid=14346780
+Probita | 14347626 | 2022-11-30T20:04:21Z | https://oldschool.runescape.wiki/w/Probita?oldid=14347626
+Pet | 14347954 | 2022-12-01T09:09:02Z | https://oldschool.runescape.wiki/w/Pet?oldid=14347954
+Numulite | 14255086 | 2022-03-20T00:25:53Z | https://oldschool.runescape.wiki/w/Numulite?oldid=14255086
+Unidentified small fossil | 14252512 | 2022-03-10T10:25:02Z | https://oldschool.runescape.wiki/w/Unidentified_small_fossil?oldid=14252512
+Unidentified medium fossil | 14221116 | 2021-12-27T02:29:01Z | https://oldschool.runescape.wiki/w/Unidentified_medium_fossil?oldid=14221116
+Unidentified large fossil | 14338400 | 2022-10-27T14:06:34Z | https://oldschool.runescape.wiki/w/Unidentified_large_fossil?oldid=14338400
+Unidentified rare fossil | 14308574 | 2022-08-01T07:22:57Z | https://oldschool.runescape.wiki/w/Unidentified_rare_fossil?oldid=14308574
+
+RuneLite frozen commit 49384916d5b5b7d5b17957a9fdc4a5892414e6e4. BSD-2-Clause credit retained in source and HERBIBOAR-RUNELITE-BSD.txt. Native map/object/NPC/action/varbit/animation data probed locally. Refer to REVISAO-V44.txt for all local reconstruction and timing/distribution choices; no original server code or undisclosed route distribution is claimed.

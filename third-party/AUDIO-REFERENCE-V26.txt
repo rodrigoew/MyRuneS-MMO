@@ -1,0 +1,10 @@
+Historical audio data and independent playback implementation.
+https://archive.openrs2.org/caches/runescape/1175
+https://archive.openrs2.org/api
+https://oldschool.runescape.wiki/w/Happy_Organ
+https://oldschool.runescape.wiki/w/File:Windchimes_playing.wav
+https://oldschool.runescape.wiki/w/File:Bells_playing.wav
+
+RuneLite BSD converter, pinned commit and exact group/source checksums:patches/tools/audio/PROVENANCE.json
+License:third-party/RuneLite-cache-BSD-LICENSE.txt
+No external audio recordings downloaded. MIDI timbres use system General MIDI and are not certified against Jagex soundbanks.

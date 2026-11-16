@@ -1,0 +1,13 @@
+Historical positions: OpenRune/OpenRune-Server2021-spawns.csv, ISC,
+c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f (MINING-GUILD-REFERENCE-V15.txt).
+Installed cache NPC9134Reese/9136Conwenna confirms Talk-to and Sing menus;
+modern IDs9239/9240 in the current wiki were not used with the older cache.
+Rules: https://oldschool.runescape.wiki/w/Crystal_pickaxe
+https://oldschool.runescape.wiki/w/Crystal_tool_seed
+https://oldschool.runescape.wiki/w/Crystal_singing
+https://oldschool.runescape.wiki/w/Update:Song_of_the_Elves
+Fee+60shards, total180, bypasses Crafting/Smithing production requirements.
+NPC option positions checked against the bundled native client menu builder
+and server ClickNPC constants; no external code transplanted for this service.
+OpenRune CrystalSingingScript.kt reviewed under ISC at the same pinned commit;
+its bowl implementation does not contain this NPC service.

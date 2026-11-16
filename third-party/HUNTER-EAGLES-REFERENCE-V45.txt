@@ -1,0 +1,29 @@
+HUNTER/EAGLES REFERENCES V45 — Published numeric facts and native cache data; article bodies are not redistributed.
+Baby chinchompa | 14341838 | 2022-11-07T01:24:17Z | https://oldschool.runescape.wiki/w/Baby_chinchompa?oldid=14341838
+Bird snare | 14312399 | 2022-08-15T04:02:14Z | https://oldschool.runescape.wiki/w/Bird_snare?oldid=14312399
+Bird snare | 14312399 | 2022-08-15T04:02:14Z | https://oldschool.runescape.wiki/w/Bird_snare?oldid=14312399
+Black chinchompa (Hunter) | 14355356 | 2022-12-27T20:14:36Z | https://oldschool.runescape.wiki/w/Black_chinchompa_%28Hunter%29?oldid=14355356
+Carnivorous chinchompa | 14355354 | 2022-12-27T20:14:16Z | https://oldschool.runescape.wiki/w/Carnivorous_chinchompa?oldid=14355354
+Chinchompa (Hunter) | 14355352 | 2022-12-27T20:13:59Z | https://oldschool.runescape.wiki/w/Chinchompa_%28Hunter%29?oldid=14355352
+Desert eagle | 14327876 | 2022-09-25T03:47:09Z | https://oldschool.runescape.wiki/w/Desert_eagle?oldid=14327876
+Eagle | 14274625 | 2022-04-17T06:14:14Z | https://oldschool.runescape.wiki/w/Eagle?oldid=14274625
+Eagle cape | 14216626 | 2021-12-15T07:53:02Z | https://oldschool.runescape.wiki/w/Eagle_cape?oldid=14216626
+Eagle feather | 14047186 | 2021-04-05T08:59:12Z | https://oldschool.runescape.wiki/w/Eagle_feather?oldid=14047186
+Eagle lectern | 14321521 | 2022-09-07T03:20:36Z | https://oldschool.runescape.wiki/w/Eagle_lectern?oldid=14321521
+Eagle transport system | 14348037 | 2022-12-01T21:18:55Z | https://oldschool.runescape.wiki/w/Eagle_transport_system?oldid=14348037
+Eagles' Peak | 14355315 | 2022-12-27T15:42:42Z | https://oldschool.runescape.wiki/w/Eagles%27_Peak?oldid=14355315
+Eagles' Peak (mountain) | 14272381 | 2022-04-11T04:01:45Z | https://oldschool.runescape.wiki/w/Eagles%27_Peak_%28mountain%29?oldid=14272381
+Eagles' Peak Dungeon | 14272298 | 2022-04-10T23:54:58Z | https://oldschool.runescape.wiki/w/Eagles%27_Peak_Dungeon?oldid=14272298
+Ferret | 14296195 | 2022-06-20T05:09:59Z | https://oldschool.runescape.wiki/w/Ferret?oldid=14296195
+Ferret (Hunter) | 14267463 | 2022-03-29T21:18:57Z | https://oldschool.runescape.wiki/w/Ferret_%28Hunter%29?oldid=14267463
+Golden feather (Eagles' Peak) | 14295042 | 2022-06-14T22:18:54Z | https://oldschool.runescape.wiki/w/Golden_feather_%28Eagles%27_Peak%29?oldid=14295042
+Growing vine | 14285510 | 2022-05-13T07:09:00Z | https://oldschool.runescape.wiki/w/Growing_vine?oldid=14285510
+Jungle eagle | 14274621 | 2022-04-17T06:03:30Z | https://oldschool.runescape.wiki/w/Jungle_eagle?oldid=14274621
+Kebbit (Eagles' Peak) | 14275469 | 2022-04-19T02:57:56Z | https://oldschool.runescape.wiki/w/Kebbit_%28Eagles%27_Peak%29?oldid=14275469
+Mahogany eagle lectern | 14321530 | 2022-09-07T03:27:03Z | https://oldschool.runescape.wiki/w/Mahogany_eagle_lectern?oldid=14321530
+Polar eagle | 14331466 | 2022-10-04T15:28:58Z | https://oldschool.runescape.wiki/w/Polar_eagle?oldid=14331466
+Stone door (Eagles' Peak) | 14122469 | 2021-07-16T19:32:43Z | https://oldschool.runescape.wiki/w/Stone_door_%28Eagles%27_Peak%29?oldid=14122469
+Teak eagle lectern | 14321527 | 2022-09-07T03:24:58Z | https://oldschool.runescape.wiki/w/Teak_eagle_lectern?oldid=14321527
+Thatch spar | 6330240 | 2018-05-02T02:48:42Z | https://oldschool.runescape.wiki/w/Thatch_spar?oldid=6330240
+
+QuestHelper frozen commit b4ece5b9297c6809d9893b5ea7fcc599417f2d69. Credit/license in EAGLES-PEAK-QUESTHELPER-BSD.txt. Local golden-wing layout, timings and reused boulder model are disclosed in REVISAO-V45.txt.

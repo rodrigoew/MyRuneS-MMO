@@ -1,0 +1,30 @@
+{
+  "version": 74,
+  "date": "2026-11-10",
+  "installed": true,
+  "entryPoint": "D:\\Games\\OSRS\\OSRS-Moderno\\MyRuneS MMO.exe",
+  "directLoginNativeVerified": true,
+  "optionalSettingsMenuNativeVerified": true,
+  "settingsCloseKeepsWorldAlive": true,
+  "clientCloseSavesAndStopsWorld": true,
+  "nativeLoginWindowAndMaximizedVerified": true,
+  "nativeClickMappingVerified": true,
+  "unicodeNativeVerified": true,
+  "xpSettingsNativeSaved": true,
+  "xpChangeAppliesNextStartup": true,
+  "chargeMax": {
+    "command": "::charge shadow max",
+    "max": 20000,
+    "noMaterialConsumptionTested": true,
+    "normalConsumptionPreserved": true,
+    "saveReloadTested": true,
+    "soloOnlyTested": true
+  },
+  "personalCharacterAndFarmingFilesUnchanged": true,
+  "nonCharacterWorldFilesChangedByStartup": [],
+  "serverSha256": "326a6e292a0c457948c83136bb27bb3f85d0dcdd182bba52f07d281c84d566a7",
+  "clientSha256": "635ff3e6a49e14dcbbf2edddda6760261818fc5fb30455d4e7ee1a91ebc8950c",
+  "launcherSha256": "21f58c47f597ad93f7208e2dd90872d6e300639ec54e26e06394f0e101ed10fd",
+  "noQaHelpersInProductJar": true,
+  "worldClosedAtCompletion": true
+}

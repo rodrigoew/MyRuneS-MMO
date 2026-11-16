@@ -1,0 +1,10 @@
+Facts: historical Wiki revisions14354288(Shooting Stars),14307367(Crashed Star),14342180(Dusuri shop),14255259(Star fragment).
+https://oldschool.runescape.wiki/w/Shooting_Stars?oldid=14354288
+https://oldschool.runescape.wiki/w/Crashed_Star?oldid=14307367
+https://oldschool.runescape.wiki/w/Dusuri%27s_Star_Shop?oldid=14342180
+https://oldschool.runescape.wiki/w/Star_fragment?oldid=14255259
+Glory pre-gem source: https://twitter.com/JagexAsh/status/830809149210521601
+OpenRune/OpenRune-Server reference, ISC, commitc4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f.
+content/events/shooting-stars reviewed for landing anchors, NPC shop and fragment transforms.
+Current32XP/timed layers/discovery300dust/custom teleport excluded; historical quantity layers implemented independently.
+See OpenRune-LICENSE.txt. No Jagex server source used. Original bundled cache provides native models and actions.

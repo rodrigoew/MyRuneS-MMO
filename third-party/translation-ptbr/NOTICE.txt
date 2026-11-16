@@ -1,0 +1,3 @@
+O catálogo PT-BR foi gerado parcialmente com o modelo OPUS-MT English-Portuguese (Brazil), empacotado pelo Argos Translate, com revisões manuais e adaptações para o jogo. Autores do trabalho: Jörg Tiedemann e Santhosh Thottingal (2020). Licença do modelo original: CC-BY 4.0. Referência: OPUS-MT — Building open translation services for the World. Fonte do pacote: https://data.argosopentech.com/argospm/v1/translate-en_pb-1_9.argosmodel
+
+Não há dependência do modelo ou serviço de tradução durante o jogo.

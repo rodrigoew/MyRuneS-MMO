@@ -1,0 +1,15 @@
+Reference data: OpenRune/OpenRune-Server, ISC (OpenRune-LICENSE.txt), pinned
+c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+https://github.com/OpenRune/OpenRune-Server/blob/c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f/tools/wiki-dumping/src/main/resources/2021-spawns.csv
+Historical factual positions: Belona3017,9724; Gadrin3018,3337.
+Reference modules content/areas/misc/mining-guild reviewed; their broad area
+polygon was not copied. Installed map wall connectivity used instead.
+Native cache confirms gates30364/65/66, down30367/up17385, pack variants
+12009/24851/25533 and gem bags19473/24853/25537.
+Rules and dates: https://oldschool.runescape.wiki/w/Mining_Guild_Mineral_Exchange
+https://oldschool.runescape.wiki/w/Belona
+https://oldschool.runescape.wiki/w/Gadrin
+https://oldschool.runescape.wiki/w/Soft_clay_pack
+https://oldschool.runescape.wiki/w/Bag_full_of_gems
+No May2024 glove price reductions imported. Java implementation original
+for this server. This does not certify every reference module or all Guild content.

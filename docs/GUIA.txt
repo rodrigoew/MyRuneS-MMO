@@ -1,0 +1,113 @@
+Catálogo pesquisável completo: COMANDOS.html. Disponível no botão Comandos e cheats do iniciador.
+Versões alternativas: COMANDOS.txt e COMANDOS.json.
+
+MyRuneS MMO V72 — PT-BR
+
+Abra MyRuneS MMO.exe. Interface e mensagens em português; itens, NPCs e bosses mantêm os nomes originais. Os comandos existentes continuam funcionando. Leia REVISAO-TRADUCAO-V71.txt e PENDENCIAS-FINAIS-V71.txt.
+
+Histórico e guia de recursos anteriores:
+
+OSRS SOLO V69 — GUIA ATUAL
+
+Abra D:\Games\OSRS\OSRS-Moderno\MyRuneS MMO.exe e clique em Jogar.
+Use seu personagem habitual. O jogo funciona com o servidor local; o progresso continua na mesma pasta.
+
+XP E CHEATS
+O multiplicador de XP é configurado no iniciador antes de abrir o jogo.
+::addxp 1 50000 — adiciona exatamente 50.000 XP em Attack.
+::addxp list — números de 1 a 23 para as habilidades deste comando.
+::setlevel ID NIVEL — usa os IDs internos de 0 a 22.
+::setlevel 0 23 99 — nível 99 nas 23 habilidades.
+::item ID QUANTIDADE — cria itens. Exemplo: ::item 995 1000000.
+::bank — abre o banco com as permissões do personagem local.
+::solo heal — restaura vida e Prayer.
+A lista pesquisável de itens e números está em ITENS.html e no botão Itens e números do iniciador.
+
+ARMAS COM CARGAS
+::charges — mostra o saldo de cada arma na mochila e da arma equipada.
+::charge shadow | ::charge scythe | ::charge bowfa
+::charge ID [POSICAO] — carrega uma arma com materiais da mochila; posição opcional de 1 a 28.
+::uncharge ID [POSICAO] — devolve os materiais das cargas restantes; retire a arma para a mochila.
+Também funcionam as opções Check / Charge / Uncharge e o uso de materiais na arma.
+Cada cópia mantém suas próprias cargas ao equipar, mover, guardar no banco e salvar.
+Shadow: 2 Soul rune (566) + 5 Chaos rune (562) por disparo; limite 20.000.
+Scythe: 300 Blood rune (565) + 1 Vial of blood (22446) por 100 ataques; limite 20.000.
+Bowfa normal: 1 Crystal shard (23962) por 100 disparos. Bowfa (c) permanece sem consumo de cargas.
+Sanguinesti: 3 Blood rune por disparo, inclusive Holy sanguinesti staff.
+Trident of the seas: 1 Death rune + 1 Chaos rune + 5 Fire rune + 10 Coins por disparo.
+Trident of the swamp: os mesmos materiais e 1 Zulrah's scales (12934).
+Tridents comuns: limite 2.500; versões (e): 20.000. O Trident (full) possui 2.500 cargas iniciais.
+Vial of blood com nota (22447) deve ser retirada sem nota do banco.
+Frações de vial/shard não completam uma unidade recuperável ao descarregar.
+
+BOSSES
+O menu de teleporte mantém os 34 destinos da base, com seus avisos e requisitos de entrada.
+Entradas privadas recomendadas para esta revisão:
+::solo hydra — Alchemical Hydra; use as ventilações em cada fase.
+::solo guardians — Dawn com Ranged, Dusk com Melee.
+::solo nightmare — escudos, totems e fases da base adaptadas para solo.
+::solo sire — atordoe com Shadow spells ou 50 de dano acumulado e destrua os Respiratory systems durante a janela; desvie das poças e da explosão.
+::solo kq — Kalphite Queen com duas formas.
+::solo nex — Nex e a tabela de Torva.
+::solo home — volta para casa; recolha antes os drops que deseja levar.
+Hunllef usa Crystalline key (23951); o prêmio é Hunllef reward key (23776).
+Kratos usa os cinco tipos de chave indicados no menu da base; seu prêmio é Kratos Key (7302).
+Tarn usa Tarn entry key (11040); o personagem local administrativo também tem acesso.
+Kratos, Tarn, Hunllef, Seren e Sea snake enviam as recompensas ao banco quando a mochila está cheia.
+Em Wilderness continuam valendo as regras de morte da base, mesmo jogando sozinho.
+Sair de uma arena privada reinicia a luta. O progresso do personagem e os itens recolhidos são preservados.
+
+EQUIPAMENTOS E RECEITAS
+27275/27277 — Tumeken's shadow / uncharged.
+22325/22486 — Scythe of vitur / uncharged.
+25736/25738 — Holy scythe / uncharged; 25739/25741 — Sanguine scythe / uncharged.
+22323/22481 — Sanguinesti staff / uncharged; 25731/25733 — Holy sanguinesti staff / uncharged.
+25865/25862 — Bow of faerdhinen / inactive; 25867 — Bowfa (c).
+26219/27246 — Osmumten's fang e variante ornamentada.
+21015 — Dinh's bulwark: Pummel ataca; Block impede ataques e reduz dano após a transição de 8 ticks.
+26374 — Zaryte crossbow. 6724 — Seercull (Soulshot); 859 — Magic longbow (Powershot).
+As quatro salamanders usam seus tars específicos e permitem três modos de combate.
+26382/26384/26386 — Torva helm/body/legs.
+27226/27229/27232 — Masori normal; 27235/27238/27241 — Masori (f).
+Crafting 90: use Hammer (2347) em Armadyl helmet/chestplate/chainskirt para obter 1/4/3 Armadylean plates (27269).
+Use 1/4/3 plates nas peças correspondentes de Masori para fortificá-las.
+Holy ornament kit (25742) combina com Scythe/Sanguinesti; Sanguine ornament kit (25744) combina com Scythe.
+Hydra claw (22966) + Zamorakian hasta (11889) = Dragon hunter lance (22978).
+Hydra heart/fang/eye (22969/22971/22973) = Brimstone ring (22975); tenha os três componentes.
+Hydra leather (22983) + Hammer = Ferocious gloves (22981); o martelo permanece na mochila.
+Nightmare staff (24422) + orb (24511/24514/24517) = versão correspondente.
+Tourmaline core (21730) + Bandos boots (11836) = Guardian boots (21733).
+Três peças (13274/13275/13276) = Abyssal bludgeon (13263).
+
+OUTRAS ATIVIDADES JÁ DISPONÍVEIS
+::solo toa | ::solo tob | ::solo cox | ::solo inferno | ::solo pest | ::solo pestrewards | ::solo magearena
+As raids e atividades mantêm as adaptações solo desta base.
+
+SALVAMENTO E TELA
+Há salvamento periódico a cada 30 segundos, ao deslogar normalmente e ao usar Salvar e fechar no iniciador.
+Ao fechar a janela do cliente, aguarde o iniciador concluir o salvamento e encerrar o servidor.
+Evite forçar o encerramento do processo. Drops no chão são temporários e não persistem ao reiniciar.
+A escala da interface é configurável em 100%, 125%, 150%, 175% e 200%, com preferência salva.
+Maximizar a janela e ajustar escala/modo redimensionável são controles distintos.
+
+ATUALIZAÇÕES
+Deslogue e feche pelo iniciador antes de substituir uma versão. Preserve runtime/server/save_files e runtime/userdata.
+O ZIP de distribuição é uma instalação limpa e não contém seus personagens nem credenciais.
+Detalhes da revisão e limites: REVISAO-COMBATE-V69.txt, VALIDACAO-COMBATE-V69.json e PENDENCIAS-FINAIS-V69.txt.
+
+
+OSRS SOLO V70 — MISSÕES E DIÁRIOS: PRIMEIRO BLOCO
+
+Como abrir: ::quests ou ::missoes. A lista fica abaixo das regiões de diários na aba lateral. Clique em uma missão para abrir seu diário. A cor mostra o progresso real do personagem.
+
+Novas campanhas principais, com etapas persistidas:
+- Cook's Assistant: Cook na cozinha do castelo de Lumbridge. Egg, Bucket of milk e Pot of flour podem ser entregues aos poucos. Há um Egg no galinheiro a noroeste; Bucket e Pot reaparecem na cozinha. Use Bucket na Dairy cow ao norte do moinho. Colha Grain, use no Hopper do último andar, opere Hopper controls e recolha a farinha no Flour bin do térreo com Pot. Recompensa: 1 QP, 300 Cooking XP e Cook-o-matic range com redução de queima para alimentos compatíveis.
+- Sheep Shearer: Fred the Farmer ao norte de Lumbridge. Pegue Shears com Fred se necessário, tosquie as ovelhas com lã e use Wool na Spinning wheel no primeiro andar do castelo. Entregue 20 Ball of wool sem notas, em uma ou várias viagens. Recompensa: 1 QP, 150 Crafting XP e 60 coins, além do XP normal de fiar.
+- The Restless Ghost: Father Aereck na igreja de Lumbridge, Father Urhney no sudoeste do pântano, Ghostspeak amulet equipado para conversar com o Restless ghost, busca do Skull no altar do subsolo da Wizards' Tower e devolução ao Coffin aberto no cemitério. O Skeleton é opcional. Recompensa: 1 QP e 1.125 Prayer XP. Reabra o Coffin se tiver saído do jogo.
+- Rune Mysteries: Duke Horacio no primeiro andar do castelo; Air talisman para Sedridor no subsolo da Wizards' Tower; Research package para Aubury na loja de runas de Varrock; Research notes de volta a Sedridor. Os NPCs repõem documentos perdidos. Recompensa: 1 QP, Air talisman devolvido e transporte à Rune essence mine. Historian Minas pode registrar esta descoberta por 5 Kudos; esse registro ainda não representa o sistema completo do museu.
+
+XP de recompensa de missão é fixo; o multiplicador do iniciador continua valendo para as ações normais de habilidades. O progresso das missões e dos materiais em processamento no moinho é salvo. Sair fecha diálogos e cancela a cena visual; o progresso já confirmado fica salvo.
+
+Diários da base: 11 regiões e 188 tarefas ativas adaptadas. Corrigidos contadores, ordem dos resgates, IDs de Karamja gloves, recuperação do último prêmio sem duplicar e entrega no banco quando a mochila está cheia. Restauradas 14 ligações de produção de Herblore, Smithing e Fletching. ::quests também dá acesso à lista das regiões. Os níveis ainda usam tarefas próprias desta base; não são o conjunto oficial integral.
+
+O catálogo oficial inteiro de missões não foi finalizado nesta etapa. Monkey Madness e Horror From The Deep continuam identificadas como adaptações resumidas. Leia PENDENCIAS-QUESTS-DIARIOS-V70.txt antes de considerar a campanha equivalente ao OSRS oficial.

@@ -1,0 +1,3 @@
+package io.xeros.solo;
+import io.xeros.*;import io.xeros.model.entity.player.*;import io.xeros.model.collisionmap.*;import io.xeros.model.definitions.*;import java.util.*;
+public class QuestRaw70Dump{public static void main(String[]args)throws Exception{Thread.currentThread().setName("GameThread");Server.startServerless();Player p=BossRoutesCheck.actor();for(int[] a:new int[][]{{3209,3215},{3188,3273},{3165,3307},{3106,9570},{3250,3192},{3145,3177},{3253,3256}}){for(WorldObject o:p.getRegionProvider().get(a[0],a[1]).worldObjectsSnapshot()){if(Math.abs(o.x-a[0])<20&&Math.abs(o.y-a[1])<20)System.out.println(o.id+"|"+o.x+"|"+o.y+"|"+o.height);}}System.out.println("QUEST_MAP70_DUMP_PASS");System.exit(0);}}

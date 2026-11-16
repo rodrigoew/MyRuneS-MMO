@@ -1,0 +1,18 @@
+package io.xeros.content.combat.weapon;
+import io.xeros.model.definitions.ItemDef;import java.util.*;
+/** Resolve cached cosmetic/degraded aliases to their registered combat family without stripping charged forms. */
+public final class WeaponAliases {
+ private WeaponAliases(){}
+ private static String name(int id){return ItemDef.forId(id).getName().toLowerCase(java.util.Locale.ROOT).trim().replaceAll(" (100|75|50|25|0)$","");}
+ private static final java.util.Map<Integer,Integer> CACHE=new java.util.concurrent.ConcurrentHashMap<>();
+ public static int canonical(int id){return CACHE.computeIfAbsent(id,WeaponAliases::resolve);}
+ private static int resolve(int id){
+  if(id==25865||id==25862)return id;
+  if(id==25739||id==25736)return 22325;if(id==25738||id==25741)return 22486;
+  if(id==11748)return 4212;if(id>=11749&&id<=11758)return id-7535;
+  if(id==23903)return 4214;if(id==23857)return 25867;
+  switch(id){case 20401:return 857;case 20402:return 1333;case 20403:return 853;case 20405:return 4151;case 20406:return 4587;case 20407:return 1215;case 20408:return 11235;case 20431:return 4675;case 20552:return 1373;case 20553:return 1379;case 20554:return 6523;case 20555:return 1319;case 20557:return 4153;case 20558:return 861;case 20559:return 7158;case 20560:return 6914;case 20593:return 11802;case 4236:return 845;case 10280:return 847;case 10282:return 855;case 10284:return 859;case 4862:case 4863:case 4864:case 4865:return 4710;case 4886:case 4887:case 4888:case 4889:return 4718;case 4910:case 4911:case 4912:case 4913:return 4726;case 4934:case 4935:case 4936:case 4937:return 4734;}
+  String n=name(id);for(WeaponData family:WeaponData.values())for(int candidate:family.getItems())if(candidate>0&&candidate!=id&&n.equals(name(candidate)))return candidate;return id;
+ }
+ public static WeaponData infer(int id){String n=name(id);if(n.contains("unknown")||n.contains("handle")||n.contains("noose")||n.contains("hunting knife")||n.contains("rain bow"))return WeaponData.UNARMED;if(id==6724)return WeaponData.BOW;if(n.contains("shadow")||n.contains("crozier")||n.contains("sceptre")||n.contains("rod of ivandis")||n.contains("toktz-mej-tal")||n.contains("cane"))return WeaponData.STAFF;if(n.contains("claws")||n.contains("nunchaku"))return WeaponData.CLAWS;if(n.contains("halberd"))return WeaponData.HALBERD;if(n.contains("scimitar")||n.contains("machete")||n.contains("sickle")||n.contains("cutlass")||n.contains("secateurs"))return WeaponData.SLASH_SWORD;if(n.contains("mjolnir")||n.contains("harpoon")||n.contains("cattleprod"))return WeaponData.SPEAR;if(n.contains("blackjack")||n.contains("club")||n.contains("ham joint")||n.contains("torch"))return WeaponData.WARHAMMER;if(n.contains("dual sai"))return WeaponData.STAB_SWORD;if(n.contains("pickaxe"))return WeaponData.PICKAXE;if(n.contains("battleaxe"))return WeaponData.BATTLEAXE;if(n.contains("axe"))return n.contains("dharok")?WeaponData.CRUSH_SWORD:WeaponData.AXE;if(n.contains("staff")||n.contains("wand")||n.contains("trident"))return WeaponData.STAFF;if(n.contains("scythe"))return WeaponData.SCYTHE;if(n.contains("spear")||n.contains("hasta"))return WeaponData.SPEAR;if(n.contains("dagger"))return WeaponData.STAB_SWORD;if(n.contains("whip"))return WeaponData.WHIP;if(n.contains("bow"))return WeaponData.BOW;if(n.contains("2h")||n.contains("maul"))return WeaponData.CRUSH_SWORD;if(n.contains("sword"))return WeaponData.SLASH_SWORD;if(n.contains("warhammer"))return WeaponData.WARHAMMER;if(n.contains("rapier"))return WeaponData.STAB_SWORD;if(n.contains("cudgel"))return WeaponData.MACE;if(n.contains("mace"))return WeaponData.MACE;return WeaponData.UNARMED;}
+}

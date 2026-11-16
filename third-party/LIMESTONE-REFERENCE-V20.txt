@@ -1,0 +1,10 @@
+Historical OSRS references up to2022. No wiki text or artwork bundled.
+https://oldschool.runescape.wiki/w/Limestone_rock?oldid=14356954
+https://oldschool.runescape.wiki/w/Limestone?oldid=14288683
+https://oldschool.runescape.wiki/w/Limestone_brick?oldid=14337733
+https://oldschool.runescape.wiki/w/Rock_(limestone)?oldid=14288675
+https://oldschool.runescape.wiki/w/Quicklime?oldid=14350797
+https://oldschool.runescape.wiki/w/Pot_of_quicklime?oldid=9957091
+https://oldschool.runescape.wiki/w/Mining_enhancers?oldid=14306827
+https://oldschool.runescape.wiki/w/Rock_golem?oldid=14341836
+Mining coefficients95/350 and brick failure interpolation are crowdsourced/estimated, not Jagex-certified.

@@ -1,0 +1,33 @@
+Factual rules from archived revisions through2022; no article bodies distributed.
+Native fonts/item/rune models already present in the bundled client.
+
+Superheat Item | 14270515 | 2022-04-04T19:09:59Z | https://oldschool.runescape.wiki/w/Superheat_Item?oldid=14270515
+Smithing cape | 14356898 | 2022-12-31T06:10:44Z | https://oldschool.runescape.wiki/w/Smithing_cape?oldid=14356898
+Goldsmith gauntlets | 14351927 | 2022-12-12T15:55:53Z | https://oldschool.runescape.wiki/w/Goldsmith_gauntlets?oldid=14351927
+Max cape | 14356773 | 2022-12-31T02:15:58Z | https://oldschool.runescape.wiki/w/Max_cape?oldid=14356773
+Fire max cape | 14330697 | 2022-10-01T20:49:38Z | https://oldschool.runescape.wiki/w/Fire_max_cape?oldid=14330697
+Infernal max cape | 14339937 | 2022-11-01T03:47:23Z | https://oldschool.runescape.wiki/w/Infernal_max_cape?oldid=14339937
+Enchant Crossbow Bolt | 14323021 | 2022-09-10T20:48:03Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt?oldid=14323021
+Lvl-1 Enchant | 14326414 | 2022-09-21T16:06:48Z | https://oldschool.runescape.wiki/w/Lvl-1_Enchant?oldid=14326414
+Lvl-2 Enchant | 14271106 | 2022-04-06T18:07:08Z | https://oldschool.runescape.wiki/w/Lvl-2_Enchant?oldid=14271106
+Lvl-3 Enchant | 14271097 | 2022-04-06T17:52:29Z | https://oldschool.runescape.wiki/w/Lvl-3_Enchant?oldid=14271097
+Lvl-4 Enchant | 14335297 | 2022-10-17T03:27:32Z | https://oldschool.runescape.wiki/w/Lvl-4_Enchant?oldid=14335297
+Lvl-5 Enchant | 14271103 | 2022-04-06T18:01:22Z | https://oldschool.runescape.wiki/w/Lvl-5_Enchant?oldid=14271103
+Lvl-6 Enchant | 14271100 | 2022-04-06T17:54:29Z | https://oldschool.runescape.wiki/w/Lvl-6_Enchant?oldid=14271100
+Lvl-7 Enchant | 14271101 | 2022-04-06T17:55:03Z | https://oldschool.runescape.wiki/w/Lvl-7_Enchant?oldid=14271101
+Enchant Crossbow Bolt (Opal) | 14301077 | 2022-07-08T19:29:05Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Opal%29?oldid=14301077
+Enchant Crossbow Bolt (Sapphire) | 14301078 | 2022-07-08T19:29:06Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Sapphire%29?oldid=14301078
+Enchant Crossbow Bolt (Jade) | 14301079 | 2022-07-08T19:29:08Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Jade%29?oldid=14301079
+Enchant Crossbow Bolt (Pearl) | 14301080 | 2022-07-08T19:29:10Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Pearl%29?oldid=14301080
+Enchant Crossbow Bolt (Emerald) | 14301081 | 2022-07-08T19:29:12Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Emerald%29?oldid=14301081
+Enchant Crossbow Bolt (Red Topaz) | 14302600 | 2022-07-13T10:41:24Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Red_Topaz%29?oldid=14302600
+Enchant Crossbow Bolt (Ruby) | 14301083 | 2022-07-08T19:29:15Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Ruby%29?oldid=14301083
+Enchant Crossbow Bolt (Diamond) | 14301084 | 2022-07-08T19:29:17Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Diamond%29?oldid=14301084
+Enchant Crossbow Bolt (Dragonstone) | 14301085 | 2022-07-08T19:29:20Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Dragonstone%29?oldid=14301085
+Enchant Crossbow Bolt (Onyx) | 14301086 | 2022-07-08T19:29:22Z | https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_%28Onyx%29?oldid=14301086
+
+2022 animation identifiers (numeric facts, no code copied):
+https://github.com/runelite/runelite/blob/12da1231c566fc0c29630bca77f0bb1dabea433d/runelite-api/src/main/java/net/runelite/api/AnimationID.java
+Old cached spotanimation IDs cross-checked by current public names:
+https://github.com/runelite/runelite/blob/master/runelite-api/src/main/java/net/runelite/api/gameval/SpotanimID.java
+No post2022 gameplay values or rebalancing rules imported.

@@ -1,0 +1,18 @@
+BUTTERFLY REFERENCES V38 — Historical revisions through2022; article bodies are not redistributed.
+Butterfly (Hunter) | 14272255 | 2022-04-10T23:37:51Z | https://oldschool.runescape.wiki/w/Butterfly_%28Hunter%29?oldid=14272255
+Ruby harvest | 14267673 | 2022-03-29T21:24:13Z | https://oldschool.runescape.wiki/w/Ruby_harvest?oldid=14267673
+Sapphire glacialis | 14334334 | 2022-10-13T01:07:04Z | https://oldschool.runescape.wiki/w/Sapphire_glacialis?oldid=14334334
+Snowy knight | 14334335 | 2022-10-13T01:12:34Z | https://oldschool.runescape.wiki/w/Snowy_knight?oldid=14334335
+Black warlock | 14321436 | 2022-09-07T02:10:50Z | https://oldschool.runescape.wiki/w/Black_warlock?oldid=14321436
+Butterfly net | 14355205 | 2022-12-27T01:33:05Z | https://oldschool.runescape.wiki/w/Butterfly_net?oldid=14355205
+Magic butterfly net | 14280399 | 2022-05-02T00:07:17Z | https://oldschool.runescape.wiki/w/Magic_butterfly_net?oldid=14280399
+Butterfly jar | 14341162 | 2022-11-05T01:44:05Z | https://oldschool.runescape.wiki/w/Butterfly_jar?oldid=14341162
+Ruby harvest (item) | 14265001 | 2022-03-29T05:14:56Z | https://oldschool.runescape.wiki/w/Ruby_harvest_%28item%29?oldid=14265001
+Sapphire glacialis (item) | 14264998 | 2022-03-29T05:14:53Z | https://oldschool.runescape.wiki/w/Sapphire_glacialis_%28item%29?oldid=14264998
+Snowy knight (item) | 14264999 | 2022-03-29T05:14:54Z | https://oldschool.runescape.wiki/w/Snowy_knight_%28item%29?oldid=14264999
+Black warlock (item) | 14265000 | 2022-03-29T05:14:55Z | https://oldschool.runescape.wiki/w/Black_warlock_%28item%29?oldid=14265000
+Accept Aid | 14301794 | 2022-07-10T21:50:01Z | https://oldschool.runescape.wiki/w/Accept_Aid?oldid=14301794
+Elnock Inquisitor | 14339119 | 2022-10-29T19:12:02Z | https://oldschool.runescape.wiki/w/Elnock_Inquisitor?oldid=14339119
+Aleck's Hunter Emporium. | 14288788 | 2022-05-26T05:38:11Z | https://oldschool.runescape.wiki/w/Aleck%27s_Hunter_Emporium.?oldid=14288788
+
+Bundled native cache:5209net swing/5214release/910..913effects;71access checks and6Sapphire plane corrections (h0 fullyclipped/h1 walkable). Engine independently implemented; no creative AGPL code imported. Exact butterflybase chance and timing are LOCAL, not certified official coefficients. Details inREVISAO-V38.txt.

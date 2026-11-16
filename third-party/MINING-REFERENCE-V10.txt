@@ -1,0 +1,11 @@
+OpenRune/OpenRune-Server — ISC licence (OpenRune-LICENSE.txt).
+Pinned commit: c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+https://github.com/OpenRune/OpenRune-Server/commit/c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+Reference files: content/skills/mining/drops/MiningGemDropTables.kt,
+content/skills/mining/scripts/Mining.kt, or-cache/.../tables/skills/Mining.kt.
+Used: seven gem weights; gem/amethyst chance coefficients and interpolation;
+ordinary pickaxe delays. The cache's native IDs were verified separately.
+Post-2022 glove/depletion changes were excluded. Gem golem base chance
+was corrected to 211886 from the reference table's 211866, using the
+published pre-2023 activity rate. No foreign completion claim is evidence
+of implementation in this game. See REVISAO-V10.txt for coverage limits.

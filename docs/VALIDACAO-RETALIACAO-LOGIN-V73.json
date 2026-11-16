@@ -1,0 +1,30 @@
+{
+  "version": 73,
+  "installed": true,
+  "personalSaveFilesUnchanged": 26,
+  "nativeKolodionFiveForms": true,
+  "nativeKolodionChargesBefore": 20000,
+  "nativeKolodionChargesAfter": 19983,
+  "nativeReentryChargesPersisted": true,
+  "regressionOnOffAndPhase": true,
+  "guardAutomatedOnOff": true,
+  "guardNative": true,
+  "newLoginNativeVerified": true,
+  "launcherNative": true,
+  "newIconInstalled": true,
+  "backup": "D:\\Games\\OSRS\\OSRS-Moderno\\backups\\antes-retaliacao-login-v73",
+  "sourceFilesUpdated": 7,
+  "noQaHelpersInProductJar": true,
+  "packageCheck": "OSRS_PACKAGE_OK",
+  "mageArenaRegression": "PASS: five forms, rewards, inventory overflow, save/reload, death and entry guards",
+  "qaOnlyAccount": "qaret73; isolated qa-world, never installed into personal saves",
+  "guardNativeOnOffOn": true,
+  "guardNativeCharges": [
+    19983,
+    19982,
+    19981
+  ],
+  "guardNativeOffChargesUnchanged": 19982,
+  "qaWorldNormalShutdown": true,
+  "exeCheckExit": 0
+}

@@ -1,0 +1,15 @@
+PENDÊNCIAS DE CONTEÚDO — V71
+
+Escopo escolhido: desenvolver campanhas oficiais completas em etapas, com rotas, requisitos, diálogos, itens, desafios e recompensas. As quatro novas campanhas principais estão jogáveis do início ao fim; isso não conclui o catálogo oficial inteiro.
+
+1. Demais quests oficiais: a base agora registra 9 entradas, das quais 4 foram adicionadas nesta etapa. Continuam faltando numerosas campanhas e cadeias oficiais, incluindo o caminho até Dragon Slayer I/II, Recipe for Disaster, Desert Treasure, Lost City/Fairy Tale, linhas Fremennik, elfos e outras. Elas exigem desenvolvimento e validação próprios; não há autoconclusão substituindo a aventura.
+2. Monkey Madness e Horror From The Deep: permanecem adaptações curtas da base. Corrigidas proteções contra repetição, mas não refeitas como campanhas oficiais completas. Learning The Ropes é um tutorial customizado.
+3. Diários oficiais integrais: existem 11 regiões com 188 tarefas adaptadas. Kourend & Kebos, a migração para a lista oficial de tarefas e o conjunto completo de benefícios/lâmpadas/requisitos oficiais continuam pendentes. Os 44 resgates e a persistência foram testados; isso não é uma execução manual de todas as 188 tarefas.
+4. Requisitos cruzados: muitos acessos, equipamentos, feitiços e lojas da base solo continuam liberados independentemente das quests oficiais ausentes. Integrar os desbloqueios com as futuras campanhas.
+5. Apresentação: a partida do fantasma usa uma cena curta própria; faltam a reprodução visual integral da cena oficial e outras animações/detalhes históricos. Os diálogos novos recontam a história em português, sem transcrição literal dos textos oficiais.
+6. Museu: o bônus de Rune Mysteries com Historian Minas é persistido, mas o museu completo e seus demais Kudos não foram implementados.
+7. Tradução: catálogo geral PT-BR aplicado na V71. Ajustes editoriais pontuais podem ser necessários em textos raros; veja REVISAO-TRADUCAO-V71.txt. Novas mensagens serão escritas em PT-BR.
+
+Validação desta etapa: dez conjuntos de checagens do servidor, repetição das quatro campanhas após o ajuste dos diálogos, e sessão nativa do cliente com Cook's Assistant, abertura do diário na lista, recompensa e saída/reentrada. Os outros três novos roteiros foram executados nos testes do servidor; não foram percorridos integralmente com cliques no cliente real.
+
+Mantêm-se os limites da V69 para o restante do jogo: adaptações solo, balanceamento e mecânicas próprias; sem certificação de equivalência integral ao oficial, sem ensaio de muitas horas e sem certificação de compilação Gradle integral em ambiente limpo. RS3 preservado.

@@ -1,0 +1,39 @@
+package io.xeros.content.combat.magic;
+import io.xeros.Server;import io.xeros.model.entity.player.Player;import io.xeros.model.items.*;import java.util.*;
+/** Sparse per-copy metadata over legacy inventory/equipment arrays and bank stacks. Bank withdrawals are LIFO.
+ * Outer inventory transactions preserve identity through equips, banking, drops, pickup, death and ornaments.
+ * Empty or destroyed weapons never lend their charges to a newly acquired copy. */
+public final class EquipmentChargeLedger {
+ private final Player p;private final Map<String,Integer> balances=new LinkedHashMap<>();private final Map<String,Integer> recordedIds=new LinkedHashMap<>();private Snapshot before;private int depth;private boolean initialized;private int equip=-1,swapFrom=-1,swapTo=-1;
+ public boolean loading;
+ public EquipmentChargeLedger(Player p){this.p=p;}
+ public static int family(int id){switch(id){case 27275:return 1;case 22325:case 25736:case 25739:return 2;case 25865:return 3;case 22323:case 25731:return 4;case 11905:case 11907:case 22288:return 5;case 12899:case 22292:return 6;default:return 0;}}
+ private static final class Snapshot{final Map<String,Integer> ids=new LinkedHashMap<>();final Map<Integer,Integer> bank=new LinkedHashMap<>();int id(String key){Integer id=ids.get(key);if(id!=null)return id;if(key.startsWith("b")){int split=key.indexOf('#');if(split>1){int i=Integer.parseInt(key.substring(1,split)),index=Integer.parseInt(key.substring(split+1));return bank.getOrDefault(i,0)>index?i:-1;}}return -1;}}
+ private Snapshot capture(){Snapshot s=new Snapshot();for(int i=0;i<p.playerItems.length;i++)if(p.playerItemsN[i]>0&&family(p.playerItems[i]-1)>0)s.ids.put("i"+i,p.playerItems[i]-1);for(int i=0;i<p.playerEquipment.length;i++)if(p.playerEquipmentN[i]>0&&family(p.playerEquipment[i])>0)s.ids.put("e"+i,p.playerEquipment[i]);for(GameItem item:p.getItems().getBankItems())if(family(item.getId())>0&&item.getAmount()>0)s.bank.merge(item.getId(),item.getAmount(),Integer::sum);if(Server.itemHandler!=null)for(GroundItem g:Server.itemHandler.getOwnedGroundItems(p))if(family(g.getId())>0)s.ids.put("g"+System.identityHashCode(g),g.getId());return s;}
+ private String first(Snapshot s,int family){if(family(s.id("e3"))==family)return "e3";for(Map.Entry<String,Integer> e:s.ids.entrySet())if(family(e.getValue())==family)return e.getKey();for(int id:s.bank.keySet())if(family(id)==family)return "b"+id+"#0";return null;}
+ private void init(){if(initialized||loading)return;Snapshot s=capture();int[] old={0,p.shadowCharges,p.scytheCharges,0,p.getSangStaffCharge()/3,p.getTridentCharge(),p.getToxicTridentCharge()};initialized=true;for(int f=1;f<old.length;f++){String key=first(s,f);if(key!=null&&old[f]>0){balances.put(key,Math.min(20000,old[f]));recordedIds.put(key,s.id(key));}}}
+ public boolean initialized(){return initialized&&!loading;}
+ public Transaction transaction(){if(loading)return new Transaction(false);init();if(balances.isEmpty()&&depth==0)return new Transaction(false);if(depth++==0){refresh();before=capture();equip=swapFrom=swapTo=-1;}return new Transaction(true);}
+ public final class Transaction implements AutoCloseable {private final boolean active;private boolean closed;Transaction(boolean active){this.active=active;}public void equipped(int slot){if(active)equip=slot;}public void swapped(int from,int to){if(active){swapFrom=from;swapTo=to;}}@Override public void close(){if(closed)return;closed=true;if(active&&--depth==0)reconcile(before,capture());}}
+ private void refresh(){Snapshot s=capture();balances.entrySet().removeIf(e->s.id(e.getKey())!=recordedIds.getOrDefault(e.getKey(),-2));recordedIds.keySet().retainAll(balances.keySet());}
+ private void reconcile(Snapshot old,Snapshot next){Map<String,Integer> original=new LinkedHashMap<>(balances),keep=new LinkedHashMap<>();Map<Integer,Deque<Integer>> removed=new HashMap<>();
+  for(Map.Entry<String,Integer> e:original.entrySet()){int id=recordedIds.getOrDefault(e.getKey(),old.id(e.getKey()));if(next.id(e.getKey())==id)keep.put(e.getKey(),e.getValue());else removed.computeIfAbsent(family(id),k->new ArrayDeque<>()).add(e.getValue());}
+  for(Map.Entry<String,Integer> e:next.ids.entrySet())if(old.id(e.getKey())!=e.getValue()&&!keep.containsKey(e.getKey())){Deque<Integer> pool=removed.get(family(e.getValue()));if(pool!=null&&!pool.isEmpty())keep.put(e.getKey(),pool.removeFirst());}
+  for(Map.Entry<Integer,Integer> e:next.bank.entrySet()){Deque<Integer> pool=removed.get(family(e.getKey()));for(int i=old.bank.getOrDefault(e.getKey(),0);i<e.getValue()&&pool!=null&&!pool.isEmpty();i++)keep.put("b"+e.getKey()+"#"+i,pool.removeFirst());}
+  if(equip>=0&&next.id("e3")==old.id("i"+equip)&&family(next.id("e3"))>0){int incoming=original.getOrDefault("i"+equip,0),outgoing=original.getOrDefault("e3",0);putAmount(keep,"e3",incoming);String destination="i"+equip;if(next.id(destination)==old.id("e3"))putAmount(keep,destination,outgoing);}
+  if(swapFrom>=0){String a="i"+swapFrom,b="i"+swapTo;if(next.id(a)==old.id(b)&&next.id(b)==old.id(a)){putAmount(keep,a,original.getOrDefault(b,0));putAmount(keep,b,original.getOrDefault(a,0));}}
+  balances.clear();recordedIds.clear();for(Map.Entry<String,Integer> e:keep.entrySet())if(e.getValue()>0&&family(next.id(e.getKey()))>0){balances.put(e.getKey(),e.getValue());recordedIds.put(e.getKey(),next.id(e.getKey()));}before=null;
+ }
+ private static void putAmount(Map<String,Integer> values,String key,int amount){if(amount>0)values.put(key,amount);else values.remove(key);}
+ public int equipped(){return at("e3");}
+ public int at(String key){init();if(!balances.containsKey(key)&&idAt(key)==11905)set(key,2500);return balances.getOrDefault(key,0);}
+ public String choose(int id,int slot){init();Snapshot s=capture();if(slot>=0&&slot<28&&s.id("i"+slot)==id)return "i"+slot;if(s.id("e3")==id)return "e3";for(Map.Entry<String,Integer> e:s.ids.entrySet())if(e.getKey().startsWith("i")&&e.getValue()==id)return e.getKey();return null;}
+ public int idAt(String key){return capture().id(key);}
+ public void set(String key,int amount){init();Snapshot s=capture();if(family(s.id(key))==0)return;int cap=s.id(key)==11907||s.id(key)==11905||s.id(key)==12899?2500:20000;putAmount(balances,key,Math.max(0,Math.min(cap,amount)));recordedIds.put(key,s.id(key));}
+ public int familyBalance(int f){init();String key=first(capture(),f);return key==null?0:at(key);}
+ public void setFamily(int f,int value){init();String key=first(capture(),f);if(key!=null)set(key,value);}
+ public void consume(){int amount=equipped();if(amount>0)set("e3",amount-1);}
+ public String encode(){init();if(depth==0)refresh();StringBuilder b=new StringBuilder();for(Map.Entry<String,Integer> e:balances.entrySet())if(!e.getKey().startsWith("g")){if(b.length()>0)b.append(';');b.append(e.getKey()).append(':').append(recordedIds.get(e.getKey())).append(':').append(e.getValue());}return b.toString();}
+ public void decode(String raw){balances.clear();recordedIds.clear();initialized=true;for(String row:raw.split(";")){String[] v=row.split(":");try{if(v.length==3&&v[0].matches("[ie][0-9]{1,2}|b[0-9]+#[0-9]+")){int id=Integer.parseInt(v[1]),n=Integer.parseInt(v[2]);if(family(id)>0&&n>0&&n<=20000){balances.put(v[0],n);recordedIds.put(v[0],id);}}}catch(NumberFormatException ignored){}}}
+ public void check(){init();Snapshot s=capture();p.sendMessage("Cargas por arma (mochila: posicao 1 a 28):");boolean any=false;for(Map.Entry<String,Integer> e:s.ids.entrySet())if(!e.getKey().startsWith("g")){p.sendMessage((e.getKey().equals("e3")?"Equipada":e.getKey().startsWith("i")?"Mochila "+(Integer.parseInt(e.getKey().substring(1))+1):e.getKey())+": "+io.xeros.model.definitions.ItemDef.forId(e.getValue()).getName()+" = "+at(e.getKey()));any=true;}if(!any)p.sendMessage("Nenhuma arma com cargas na mochila ou equipada.");}
+}

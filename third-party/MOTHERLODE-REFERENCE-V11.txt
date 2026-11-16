@@ -1,0 +1,12 @@
+OpenRune/OpenRune-Server, ISC licence (OpenRune-LICENSE.txt).
+Pinned commit: c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+https://github.com/OpenRune/OpenRune-Server/commit/c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+Reference: content/areas/misc/motherlode-mine and
+or-cache/src/main/kotlin/dev/openrune/tables/skills/Motherlode.kt.
+Adapted upper bridge tile ranges, chance coefficients, ore tier order,
+machine batch lifecycle, repair chance, relative costs and structure.
+Pre-2023 filtering: upper level72, no upper hopper, 81/162 threshold with
+last inventory overfill, lower1/3depletion, upper15–27sec, coal cleaning XP0,
+nugget7/256 with five historic8/256levels. Not a wholesale module import.
+References verified: OSRS Wiki Motherlode_Mine, Ore_vein, Golden_nugget,
+Coal_bag, Bag_full_of_gems. See REVISAO-V11.txt for known limits.

@@ -1,0 +1,19 @@
+MyRuneS MMO V74 — 10/11/2026
+Abra pelo mesmo atalho ou MyRuneS MMO.exe. A abertura padrão inicia o servidor em segundo plano e mostra somente o login. A central tornou-se opcional, em Meu mundo > Configurações e ferramentas. Fechar o painel não encerra o jogo. Fechar o cliente salva e encerra o mundo normalmente.
+Login renderizado com fontes vetoriais na resolução real do canvas, proporção uniforme e cliques com a mesma transformação. Conferido no cliente em janela normal, 150% e maximizado.
+XP ajustável no painel; valor salvo para a próxima abertura do jogo. O executável aceita --settings para abrir somente as ferramentas, e --check para verificar o pacote.
+
+SHADOW
+Limite nesta base: 20.000 cargas. Cada carga: 2 Soul runes (566), 5 Chaos runes (562).
+Para criar os materiais do máximo:
+::item 566 40000
+::item 562 100000
+::charge shadow
+Cheat sem materiais, Shadow 27275 equipada ou na mochila:
+::charge shadow max
+Os ataques continuam consumindo as cargas normalmente. Com várias Shadows, o comando prioriza a equipada, depois a primeira na mochila. Não adiciona arma nem altera variantes vazias 27277.
+Testado: preenchimento, inventário intacto, consumo, salvamento/reentrada e bloqueio fora do modo solo. Conta de teste somente no qa-world.
+
+Instalação e fontes atualizadas no disco D. Personagens e Farming preservados por SHA-256. Catálogo COMANDOS.html atualizado. O ZIP V72 antigo não contém esta atualização.
+Backup: backups/antes-login-unificado-v74.
+Desenvolvimento: work/osrs-seven-areas/v74. Candidata final em Launcher.java; build.py compila, install.py instala apenas com mundo fechado. Não repetir prepare.py/launcher-edit.py (etapas históricas anteriores aos ajustes finais). Não incluir qa-classes no pacote.

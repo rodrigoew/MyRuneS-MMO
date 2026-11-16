@@ -1,0 +1,7 @@
+Historical Belona rev14308688 / Mining Guild rev14294429.
+https://oldschool.runescape.wiki/w/Belona?oldid=14308688
+https://oldschool.runescape.wiki/w/Mining_Guild?oldid=14294429
+OpenRune ISC commitc4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f, BelonaScript.kt cave permission/Elite diary state referenced. See OpenRune-LICENSE.txt.
+Map validation: OpenRS2 archive cache1175, build210,2022-12-13T11:45:05.140365Z, sourceJagex.
+https://archive.openrs2.org/caches/runescape/1175
+Regions11927/12183: loc files identical; all 16384 tiles per region semantically identical after decoding legacy/current opcode widths. No map replacement.

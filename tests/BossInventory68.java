@@ -1,0 +1,2 @@
+package io.xeros.solo;
+import io.xeros.*;import io.xeros.model.definitions.*;public class BossInventory68{public static void main(String[]a)throws Exception{Thread.currentThread().setName("GameThread");Server.startServerless();for(int i=5886;i<=5920;i++)System.out.println("ID="+i+" NAME="+NpcDef.forId(i).getName()+" HP="+NpcDef.forId(i).getCombatLevel());for(int i:new int[]{8615,8621,963,965,7850,7851,7852,7853,9425,9426,9427})System.out.println("ID="+i+" NAME="+NpcDef.forId(i).getName());System.out.println("BOSS_INVENTORY68_PASS");System.exit(0);}}

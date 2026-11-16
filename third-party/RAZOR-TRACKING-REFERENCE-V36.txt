@@ -1,0 +1,12 @@
+Factual rules from archived revisions through2022; no article bodies distributed.
+
+Razor-backed kebbit | 14299126 | 2022-07-03T03:04:06Z | https://oldschool.runescape.wiki/w/Razor-backed_kebbit?oldid=14299126
+Tracking | 14170859 | 2021-08-26T13:29:29Z | https://oldschool.runescape.wiki/w/Tracking?oldid=14170859
+Noose wand | 14243542 | 2022-02-09T03:32:54Z | https://oldschool.runescape.wiki/w/Noose_wand?oldid=14243542
+Ring of pursuit | 14280476 | 2022-05-02T00:32:43Z | https://oldschool.runescape.wiki/w/Ring_of_pursuit?oldid=14280476
+Aleck's Hunter Emporium. | 14288788 | 2022-05-26T05:38:11Z | https://oldschool.runescape.wiki/w/Aleck%27s_Hunter_Emporium.?oldid=14288788
+
+Bundled cache:objects19356..19380,19428,19438..19440;track fields2974..2983/2985..2993;parent configs919/920;noose sequences5250..5254/5349;beast projectile951.
+Numeric sequence name cross-check: https://api.github.com/repos/runelite/runelite/git/blobs/72027284fa220e56e76f9736f1f113b8b2f14487 (Git blob identity; the downloaded file was verified against this blob hash).
+No creative code imported from2009scape. Its36XP and common-kebbit animation were not used for the348.5XP razor-backed creature.
+Local graph reconstruction and timing limits:REVISAO-V36.txt. Ring of pursuit is not implemented in this release.

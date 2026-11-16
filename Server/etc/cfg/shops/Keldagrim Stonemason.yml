@@ -1,0 +1,19 @@
+---
+id: 227
+name: "Keldagrim Stonemason"
+items:
+- id: 3420
+  amount: 1000
+  price: 26
+- id: 8786
+  amount: 20
+  price: 325000
+- id: 8784
+  amount: 20
+  price: 130000
+- id: 8788
+  amount: 10
+  price: 975000
+- id: 26266
+  amount: 10
+  price: 10400000

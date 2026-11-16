@@ -1,0 +1,22 @@
+npc_id:
+- 2856
+- 2857
+- 2858
+- 2859
+- 2860
+- 2861
+- 2862
+- 2863
+- 2864
+- 3313
+- 3314
+- 3315
+constant:
+  accessibility: 0
+  items:
+  - item: 526
+    minimum: 1
+    maximum: 1
+  - item: 2134
+    minimum: 1
+    maximum: 1

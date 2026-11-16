@@ -1,0 +1,23 @@
+Mining reference used during the V8 review
+
+OpenRune/OpenRune-Server, ISC licence (OpenRune-LICENSE.txt).
+Pinned revision: c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+https://github.com/OpenRune/OpenRune-Server/commit/c4cd45ef2d38a0badcc7a9f89773f8f1c29bb16f
+
+Reviewed: content/skills/mining, or-cache/.../tables/skills/Mining.kt,
+api/utils/utils-skills/.../SkillingSuccessRate.kt.
+The volcanic-ash chance coefficients (50/200), interpolation and ordinary
+pickaxe action delays were used as a reference for the Java implementation.
+
+This project's current content includes changes after 2022. It was not
+imported wholesale. Its ash activity also lacked the complete ash-specific
+yield/soda/depletion rules: those were implemented separately using the
+pre-2023 activity reference and checked against the local cache/map.
+
+2022 gameplay references:
+https://oldschool.runescape.wiki/w/Ash_pile
+https://oldschool.runescape.wiki/w/Volcanic_ash
+https://oldschool.runescape.wiki/w/Celestial_ring
+
+No completion percentage from another emulator is treated as validation
+of content in this game. Uncovered effects remain in the skill audit.

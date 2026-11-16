@@ -1,0 +1,13 @@
+Historical primary OSRS Wiki revisions through 2022, researched as factual rules, not copied article bodies.
+https://oldschool.runescape.wiki/w/Mage_Training_Arena
+https://oldschool.runescape.wiki/w/Mage_Training_Arena/Telekinetic_Theatre
+https://oldschool.runescape.wiki/w/Mage_Training_Arena/Alchemists_Playground
+https://oldschool.runescape.wiki/w/Mage_Training_Arena/Enchanting_Chamber
+https://oldschool.runescape.wiki/w/Mage_Training_Arena/Creature_Graveyard
+https://oldschool.runescape.wiki/w/Template:Mage_Training_Arena_Shop_stock
+https://oldschool.runescape.wiki/w/Lvl-6_Enchant?oldid=14271100
+https://oldschool.runescape.wiki/w/Enchantment_spells?oldid=14284103
+https://oldschool.runescape.wiki/w/Monkey_bones
+https://oldschool.runescape.wiki/w/Small_ninja_monkey_bones
+https://oldschool.runescape.wiki/w/Bleached_bones
+Secondary factual map/cadence comparison: downthecrop/2009scape-mirror @176e553509850e3831ed9fe132da6a03f344433f (GPL-3.0). Implementation bodies were not imported. Native OSRS NPC/object/widget IDs and ten collision-maze solutions were independently checked. Legacy timings remain explicitly uncertified against 2022. The 2016 statue NPC is used; the removed ground statue is not used. No 2024 MTA rebalance rules were imported.

@@ -1,0 +1,16 @@
+---
+id: 221
+name: "Dusuri's Star Shop"
+items:
+- id: 25539
+  amount: 50
+  price: 2000
+- id: 25547
+  amount: 50
+  price: 3000
+- id: 25537
+  amount: 100
+  price: 300
+- id: 25533
+  amount: 1000
+  price: 150

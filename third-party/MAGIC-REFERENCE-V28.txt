@@ -1,0 +1,9 @@
+Historical OSRS Wiki revisions through 2022-12-31:
+Telekinetic Grab rev14330414 (level33/43XP/range10/runes); RuneLite AnimationID HUMAN_CASTTELEGRAB723.
+Elemental staff rev14335907; Tome of Fire rev14356370; Kodai wand rev14356289; ornamental/mist/dust staff individual 2022 revisions.
+https://oldschool.runescape.wiki/w/Telekinetic_Grab
+https://oldschool.runescape.wiki/w/Elemental_staff
+https://oldschool.runescape.wiki/w/Tome_of_Fire
+https://oldschool.runescape.wiki/w/Kodai_wand
+Secondary projectile timing comparison only: downthecrop/2009scape-mirror @176e553509850e3831ed9fe132da6a03f344433f, Server/src/main/content/minigame/mta/TelekineticGrabSpell.java. Implementation bodies were not imported. Exact 2022 timing remains uncertified.
+The ground guardian statue was removed in 2016; no pre-2016 item-maze implementation is included.

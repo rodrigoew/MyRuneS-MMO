@@ -1,0 +1,12 @@
+Factual rules from archived revisions through2022; no article bodies distributed.
+
+Deadfall | 14202224 | 2021-11-06T17:06:17Z | https://oldschool.runescape.wiki/w/Deadfall?oldid=14202224
+Prickly kebbit | 14267524 | 2022-03-29T21:20:35Z | https://oldschool.runescape.wiki/w/Prickly_kebbit?oldid=14267524
+Wild kebbit | 14267805 | 2022-03-29T21:27:22Z | https://oldschool.runescape.wiki/w/Wild_kebbit?oldid=14267805
+Barb-tailed kebbit | 14267483 | 2022-03-29T21:19:31Z | https://oldschool.runescape.wiki/w/Barb-tailed_kebbit?oldid=14267483
+Sabre-toothed kebbit | 14267744 | 2022-03-29T21:26:03Z | https://oldschool.runescape.wiki/w/Sabre-toothed_kebbit?oldid=14267744
+Raw rainbow fish | 14119134 | 2021-07-10T19:05:52Z | https://oldschool.runescape.wiki/w/Raw_rainbow_fish?oldid=14119134
+
+2022 animation numeric identifier5212: https://github.com/runelite/runelite/blob/12da1231c566fc0c29630bca77f0bb1dabea433d/runelite-api/src/main/java/net/runelite/api/AnimationID.java
+No code imported from2009scape; its incompatible object IDs/animation and always-success behavior were not adopted.
+Local catch interpolation,cleanup distance and remaining fidelity limits described in REVISAO-V35.txt.

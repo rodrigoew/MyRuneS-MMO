@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7719,
+    "position": {
+      "x": 3017,
+      "y": 9724,
+      "height": 0
+    },
+    "walkingType": "STAND"
+  },
+  {
+    "id": 7716,
+    "position": {
+      "x": 3018,
+      "y": 3337,
+      "height": 0
+    },
+    "walkingType": "STAND"
+  },
+  {
+    "id": 7717,
+    "position": {
+      "x": 3032,
+      "y": 9748,
+      "height": 0
+    },
+    "walkingType": "STAND"
+  },
+  {
+    "id": 7718,
+    "position": {
+      "x": 3030,
+      "y": 9746,
+      "height": 0
+    },
+    "walkingType": "STAND"
+  }
+]

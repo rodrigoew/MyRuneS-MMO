@@ -1,0 +1,19 @@
+HUNTER STORES REFERENCES V47 — Numeric historical facts; article bodies are not redistributed.
+Aleck | 14288789 | 2022-05-26T05:40:57Z | https://oldschool.runescape.wiki/w/Aleck?oldid=14288789
+Artimeus | 14261182 | 2022-03-29T00:41:45Z | https://oldschool.runescape.wiki/w/Artimeus?oldid=14261182
+Aleck's Hunter Emporium. | 14288788 | 2022-05-26T05:38:11Z | https://oldschool.runescape.wiki/w/Aleck%27s_Hunter_Emporium.?oldid=14288788
+Nardah Hunter Shop. | 14294439 | 2022-06-13T11:27:24Z | https://oldschool.runescape.wiki/w/Nardah_Hunter_Shop.?oldid=14294439
+Bird snare pack | 14293770 | 2022-06-11T05:24:19Z | https://oldschool.runescape.wiki/w/Bird_snare_pack?oldid=14293770
+Box trap pack | 14338524 | 2022-10-27T21:13:51Z | https://oldschool.runescape.wiki/w/Box_trap_pack?oldid=14338524
+Magic imp box pack | 14293762 | 2022-06-11T05:21:12Z | https://oldschool.runescape.wiki/w/Magic_imp_box_pack?oldid=14293762
+Magic box | 14334556 | 2022-10-13T23:20:59Z | https://oldschool.runescape.wiki/w/Magic_box?oldid=14334556
+Box trap | 14303227 | 2022-07-15T00:22:30Z | https://oldschool.runescape.wiki/w/Box_trap?oldid=14303227
+Bird snare | 14312399 | 2022-08-15T04:02:14Z | https://oldschool.runescape.wiki/w/Bird_snare?oldid=14312399
+Noose wand | 14243542 | 2022-02-09T03:32:54Z | https://oldschool.runescape.wiki/w/Noose_wand?oldid=14243542
+Butterfly net | 14355205 | 2022-12-27T01:33:05Z | https://oldschool.runescape.wiki/w/Butterfly_net?oldid=14355205
+Butterfly jar | 14341162 | 2022-11-05T01:44:05Z | https://oldschool.runescape.wiki/w/Butterfly_jar?oldid=14341162
+Teasing stick | 14290607 | 2022-06-01T03:47:49Z | https://oldschool.runescape.wiki/w/Teasing_stick?oldid=14290607
+Torch | 14325540 | 2022-09-19T12:31:51Z | https://oldschool.runescape.wiki/w/Torch?oldid=14325540
+Module:StoreLine | 14351661 | 2022-12-11T05:47:08Z | https://oldschool.runescape.wiki/w/Module%3AStoreLine?oldid=14351661
+
+Original cactus model44733: Jagex cache1175/build210,2022-12-13. OpenRS2 archive API and single-group source: https://archive.openrs2.org/api ; https://archive.openrs2.org/caches/runescape/1175/archives/7/groups/44733.dat . Native packed group differed from the original; restored Type3 geometry156vertices225faces. Source decoder was not replaced or made to hide malformed-model errors. Existing historical-store arithmetic retains OpenRune ISC attribution in source.

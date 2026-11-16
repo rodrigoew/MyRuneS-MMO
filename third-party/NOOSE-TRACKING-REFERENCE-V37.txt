@@ -1,0 +1,18 @@
+Factual rules from archived revisions through2022; no article bodies distributed.
+
+Razor-backed kebbit | 14299126 | 2022-07-03T03:04:06Z | https://oldschool.runescape.wiki/w/Razor-backed_kebbit?oldid=14299126
+Common kebbit | 14267499 | 2022-03-29T21:19:56Z | https://oldschool.runescape.wiki/w/Common_kebbit?oldid=14267499
+Feldip weasel | 14260685 | 2022-03-29T00:32:33Z | https://oldschool.runescape.wiki/w/Feldip_weasel?oldid=14260685
+Desert devil | 14267753 | 2022-03-29T21:26:14Z | https://oldschool.runescape.wiki/w/Desert_devil?oldid=14267753
+Polar kebbit | 14267694 | 2022-03-29T21:24:44Z | https://oldschool.runescape.wiki/w/Polar_kebbit?oldid=14267694
+Tracking | 14170859 | 2021-08-26T13:29:29Z | https://oldschool.runescape.wiki/w/Tracking?oldid=14170859
+Noose wand | 14243542 | 2022-02-09T03:32:54Z | https://oldschool.runescape.wiki/w/Noose_wand?oldid=14243542
+Ring of pursuit | 14280476 | 2022-05-02T00:32:43Z | https://oldschool.runescape.wiki/w/Ring_of_pursuit?oldid=14280476
+Jewellery | 14330599 | 2022-10-01T14:12:27Z | https://oldschool.runescape.wiki/w/Jewellery?oldid=14330599
+Aleck's Hunter Emporium. | 14288788 | 2022-05-26T05:38:11Z | https://oldschool.runescape.wiki/w/Aleck%27s_Hunter_Emporium.?oldid=14288788
+
+Bundled-cache numeric facts:75track field groups,parent/bit positions,footprint models19341/19343 andplacements/rotations,5creaturecapturesequences/projectiles,2x2Polarstairs/nativeactions,21126name/value/options.
+No creative code imported from2009scape; the tracking engine is independent. Native model facts established5reversednorthernRazorfields and independentbefore-failure/after-pass tests.
+Currentpost2022RingofPursuitchanges(2024guaranteed/2026startedtrail)wereNOTadopted.
+Jewellery2022explicitlydescribesPLAYER-ownedcharges; individual-ringattributeswereanincorrectearlierassumption.
+Localroutegenerator,radius6andtiminglimits:REVISAO-V37.txt. RemainingHuntermethodsareexplicitlypending.

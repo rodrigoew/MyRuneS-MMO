@@ -1,0 +1,37 @@
+Factual rules researched against archived revisions through2022; article bodies not distributed.
+Native item IDs/models/menus were independently read from the bundled cache.
+Jagex primary clarifications referenced by the historical records:
+https://twitter.com/JagexAsh/status/1396863057352069129
+https://twitter.com/Teletubyking/status/1467268383003529218
+https://oldschool.runescape.com/polls/2020/1613
+
+Historical source revisions:
+Tome of Fire | 14356370 | 2022-12-30T20:07:08Z | https://oldschool.runescape.wiki/w/Tome_of_Fire?oldid=14356370
+Tome of Water | 14354931 | 2022-12-26T00:58:34Z | https://oldschool.runescape.wiki/w/Tome_of_Water?oldid=14354931
+Soaked page | 14197535 | 2021-10-25T13:50:14Z | https://oldschool.runescape.wiki/w/Soaked_page?oldid=14197535
+Maximum magic hit | 14346205 | 2022-11-26T04:32:06Z | https://oldschool.runescape.wiki/w/Maximum_magic_hit?oldid=14346205
+Magic damage | 14321546 | 2022-09-07T03:36:00Z | https://oldschool.runescape.wiki/w/Magic_damage?oldid=14321546
+Confuse | 14215413 | 2021-12-08T16:32:36Z | https://oldschool.runescape.wiki/w/Confuse?oldid=14215413
+Weaken | 14275734 | 2022-04-20T01:49:11Z | https://oldschool.runescape.wiki/w/Weaken?oldid=14275734
+Curse | 14271626 | 2022-04-09T01:15:10Z | https://oldschool.runescape.wiki/w/Curse?oldid=14271626
+Vulnerability | 14297474 | 2022-06-25T10:20:57Z | https://oldschool.runescape.wiki/w/Vulnerability?oldid=14297474
+Enfeeble | 14195333 | 2021-10-19T10:01:10Z | https://oldschool.runescape.wiki/w/Enfeeble?oldid=14195333
+Stun | 14195334 | 2021-10-19T10:01:11Z | https://oldschool.runescape.wiki/w/Stun?oldid=14195334
+Bind | 14204906 | 2021-11-17T15:55:43Z | https://oldschool.runescape.wiki/w/Bind?oldid=14204906
+Snare | 14341621 | 2022-11-07T01:20:25Z | https://oldschool.runescape.wiki/w/Snare?oldid=14341621
+Entangle | 14335308 | 2022-10-17T03:28:21Z | https://oldschool.runescape.wiki/w/Entangle?oldid=14335308
+Bryophyta's staff | 14355971 | 2022-12-30T01:53:46Z | https://oldschool.runescape.wiki/w/Bryophyta%27s_staff?oldid=14355971
+Staff of the Dead | 14356234 | 2022-12-30T17:05:11Z | https://oldschool.runescape.wiki/w/Staff_of_the_Dead?oldid=14356234
+Toxic Staff of the Dead | 14356367 | 2022-12-30T20:06:23Z | https://oldschool.runescape.wiki/w/Toxic_Staff_of_the_Dead?oldid=14356367
+Kodai wand | 14356289 | 2022-12-30T19:34:45Z | https://oldschool.runescape.wiki/w/Kodai_wand?oldid=14356289
+Standard spellbook | 14340883 | 2022-11-04T03:19:35Z | https://oldschool.runescape.wiki/w/Standard_spellbook?oldid=14340883
+Ancient Magicks | 14294264 | 2022-06-13T10:25:44Z | https://oldschool.runescape.wiki/w/Ancient_Magicks?oldid=14294264
+Earth Surge | 14340882 | 2022-11-04T03:18:01Z | https://oldschool.runescape.wiki/w/Earth_Surge?oldid=14340882
+Swampbark armour | 14281951 | 2022-05-04T20:02:00Z | https://oldschool.runescape.wiki/w/Swampbark_armour?oldid=14281951
+Slayer helmet (i) | 14356251 | 2022-12-30T18:27:05Z | https://oldschool.runescape.wiki/w/Slayer_helmet_%28i%29?oldid=14356251
+Black mask (i) | 14355198 | 2022-12-27T01:29:44Z | https://oldschool.runescape.wiki/w/Black_mask_%28i%29?oldid=14355198
+Salve amulet(i) | 14348405 | 2022-12-02T23:23:44Z | https://oldschool.runescape.wiki/w/Salve_amulet%28i%29?oldid=14348405
+Salve amulet(ei) | 14356320 | 2022-12-30T19:45:19Z | https://oldschool.runescape.wiki/w/Salve_amulet%28ei%29?oldid=14356320
+Smoke battlestaff | 14356435 | 2022-12-30T20:42:33Z | https://oldschool.runescape.wiki/w/Smoke_battlestaff?oldid=14356435
+Mystic smoke staff | 14333009 | 2022-10-09T22:19:47Z | https://oldschool.runescape.wiki/w/Mystic_smoke_staff?oldid=14333009
+Ice spells | 14333246 | 2022-10-10T23:50:59Z | https://oldschool.runescape.wiki/w/Ice_spells?oldid=14333246
